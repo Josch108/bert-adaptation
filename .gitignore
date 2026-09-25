@@ -30,3 +30,7 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Local AG News environment and cache
+.venv-agnews/
+.hf-agnews/

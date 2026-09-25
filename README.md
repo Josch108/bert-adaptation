@@ -2,10 +2,22 @@
 
 Proyecto enfocado en la adaptación empírica de `bert-base` a través de los tres peldaños de la escalera de adaptación (*Feature-based*, *Partial fine-tuning*, *Full fine-tuning*) en cuatro tareas clásicas de NLP.
 
+## Estado de la revisión de AG News
+
+**AG News completado:** accuracy de prueba 76.90% (congelado) y 92.50% (ajuste completo). [Resultados verificados y análisis](report/AGNEWS_RESULTS.md).
+
+AG News tiene un flujo reproducible con separación train/validation/test, selección por validación,
+exportación del ganador y evidencia por ejecución. Consulta [AGNEWS_GUIDE.md](AGNEWS_GUIDE.md).
+La implementación está en `src/agnews_experiment.py`; las dependencias específicas, en `requirements-agnews.txt`.
+
+**Las cifras de `report/REPORT.md` y `report/report.pdf` son del borrador anterior y no están verificadas.**
+Para AG News, usa `runs/agnews_verified/RESULTS.md` solo cuando su `status.json` indique `complete`.
+NER, POS y QA siguen pendientes de corrección y ejecución. Las salidas smoke son pruebas técnicas, no resultados finales.
+
 ## Estructura del Proyecto
 
 ```
-task_3/
+bert-adaptation/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
@@ -16,12 +28,13 @@ task_3/
 ├── report/
 │   └── (borradores, gráficas y reporte PDF final)
 └── src/
-    └── utils.py
+    ├── agnews_experiment.py
+    └── upload_models_to_hf.py
 ```
 
 ## Flujo de Trabajo en Google Colab
 
-1. **Hardware:** En Google Colab, seleccionar entorno de ejecución con aceleración por GPU (T4 o A100 gratuita en Runtime -> Change runtime type).
+1. **Hardware:** En Google Colab, seleccionar entorno de ejecución con aceleración por GPU (según disponibilidad en Runtime -> Change runtime type).
 2. **Reproducibilidad:** Cada notebook incluye semillas fijas (`seed=42`) y seguimiento de métricas (loss por época, tiempos en segundos y métricas de evaluación).
 3. **Reglas de la Tarea:**
    - Comparación obligatoria de al menos 2 métodos por tarea (modelo entregado vs alternativa rechazada).

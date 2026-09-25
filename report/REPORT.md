@@ -1,3 +1,5 @@
+> **BORRADOR NO VERIFICADO:** las cifras siguientes no tienen evidencia de ejecución en la versión original. Para AG News, consultar `runs/agnews_verified/RESULTS.md` tras completar la ejecución. NER, POS y QA siguen pendientes. El PDF anterior tampoco ha sido actualizado.
+
 # Adapting BERT for NLP Tasks: An Empirical Study of the Adaptation Ladder
 
 **Course:** Trends in Data Science (Unit 2, Task 1)  

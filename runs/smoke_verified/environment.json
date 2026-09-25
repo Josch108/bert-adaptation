@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch_cuda": null,
+  "device": "cpu",
+  "gpu": null,
+  "precision": "fp32",
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.49.0",
+    "datasets": "3.3.2",
+    "numpy": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "huggingface-hub": "0.29.3"
+  }
+}

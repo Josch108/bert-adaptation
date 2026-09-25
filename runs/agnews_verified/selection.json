@@ -1,0 +1,7 @@
+{
+  "winner": "full_finetuning",
+  "criterion": "highest validation macro-F1; exact tie: fewer trainable parameters",
+  "validation_gap": 0.16008200670349282,
+  "single_seed_caution": "A single seed does not establish statistical superiority.",
+  "smoke": false
+}

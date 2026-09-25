@@ -1,0 +1,106 @@
+{
+  "dataset": "fancyzhx/ag_news",
+  "dataset_revision": "eb185aade064a813bc0b7f42de02595523103ca4",
+  "model": "google-bert/bert-base-uncased",
+  "model_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "indices": {
+    "train": [
+      99238,
+      106950,
+      71679,
+      4181,
+      114749,
+      43257,
+      15977,
+      7986,
+      49568,
+      108560,
+      119624,
+      73844,
+      95630,
+      57471,
+      113949,
+      27073,
+      50959,
+      5891,
+      35655,
+      14481,
+      93529,
+      12963,
+      31144,
+      22961,
+      1398,
+      86537,
+      40335,
+      52777,
+      88450,
+      10206,
+      50028,
+      117887
+    ],
+    "validation": [
+      52154,
+      29825,
+      59053,
+      34608,
+      31111,
+      58501,
+      61491,
+      36567,
+      42346,
+      67465,
+      83524,
+      75209,
+      25372,
+      28341,
+      97110,
+      1876
+    ],
+    "test": [
+      7450,
+      7449,
+      518,
+      6374,
+      2140,
+      4815,
+      2967,
+      2037,
+      952,
+      2520,
+      4625,
+      7352,
+      4580,
+      425,
+      5324,
+      4715
+    ]
+  },
+  "source_splits": {
+    "train": "train",
+    "validation": "train",
+    "test": "test"
+  },
+  "deduplication": "casefold + whitespace normalization; test precedence; first occurrence",
+  "excluded_training_rows": 161,
+  "excluded_duplicate_test_rows": 0,
+  "class_counts": {
+    "train": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "validation": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "test": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}
