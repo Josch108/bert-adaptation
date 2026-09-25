@@ -1,0 +1,7 @@
+{
+  "winner": "feature_based",
+  "criterion": "highest validation macro-F1; exact tie: fewer trainable parameters",
+  "validation_gap": 0.005263157894736831,
+  "single_seed_caution": "A single seed does not establish statistical superiority.",
+  "smoke": true
+}

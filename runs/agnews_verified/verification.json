@@ -1,0 +1,9 @@
+{
+  "executed_notebook_no_errors": true,
+  "test_metrics_recomputed": true,
+  "export_matches_selected_checkpoint": true,
+  "source_matches_executed_snapshot": true,
+  "offline_unit_tests": "2 passed",
+  "gpu_smoke": "complete",
+  "full_experiment": "complete"
+}

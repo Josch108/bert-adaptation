@@ -1,0 +1,10 @@
+{
+  "method": "feature_based",
+  "trainable_parameters": 3076,
+  "total_parameters": 109485316,
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.7733134845797948,
+  "train_seconds": 91.78347289998783,
+  "peak_allocated_gpu_bytes": 538779648,
+  "frozen_backbone_verified": true
+}

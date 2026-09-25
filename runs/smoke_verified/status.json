@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/google-bert/bert-base-uncased (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))\"), '(Request ID: df9a0bf0-3eae-487a-8606-3ed2165b8cca)')",
+  "smoke": true
+}

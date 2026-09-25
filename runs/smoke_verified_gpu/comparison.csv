@@ -1,0 +1,3 @@
+method,trainable_parameters,total_parameters,best_epoch,best_val_macro_f1,train_seconds,peak_allocated_gpu_bytes,frozen_backbone_verified,test_loss,test_accuracy,test_macro_f1,selected
+feature_based,3076,109485316,1,0.10526315789473684,2.9822612999996636,538779648,True,1.36962890625,0.25,0.1,True
+full_finetuning,109485316,109485316,1,0.1,0.6289170999953058,2294483968,False,1.3818359375,0.25,0.1,False

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "train_size": 32,
+  "val_size": 16,
+  "test_size": 16,
+  "epochs": 1,
+  "micro_batch": 8,
+  "accumulation": 4,
+  "max_length": 128,
+  "head_lr": 0.001,
+  "backbone_lr": 2e-05,
+  "weight_decay": 0.01,
+  "model_id": "google-bert/bert-base-uncased",
+  "dataset_id": "fancyzhx/ag_news",
+  "model_revision": null,
+  "dataset_revision": null,
+  "smoke": true
+}
