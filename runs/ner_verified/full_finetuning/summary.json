@@ -1,0 +1,10 @@
+{
+  "method": "full_finetuning",
+  "best_epoch": 3,
+  "best_val_f1": 0.9483686511940801,
+  "trainable_parameters": 107726601,
+  "total_parameters": 107726601,
+  "frozen_parameters_verified": false,
+  "train_seconds": 441.89380979997804,
+  "peak_allocated_gpu_bytes": 2862062080
+}

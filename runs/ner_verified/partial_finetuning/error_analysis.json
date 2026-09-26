@@ -1,0 +1,459 @@
+{
+  "counts": {
+    "gold_entities": 5648,
+    "predicted_entities": 5650,
+    "correct_entities": 5034,
+    "false_positive_entities": 616,
+    "wrong_type_exact_boundary": 240,
+    "missed_entity": 160,
+    "overlapping_wrong_boundary": 214
+  },
+  "examples": [
+    {
+      "source_row": 0,
+      "text": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "JAPAN"
+        },
+        {
+          "type": "PER",
+          "start_word": 7,
+          "end_word_exclusive": 8,
+          "text": "CHINA"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "JAPAN"
+        }
+      ]
+    },
+    {
+      "source_row": 12,
+      "text": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ]
+    },
+    {
+      "source_row": 22,
+      "text": "RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "ITALY"
+        },
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "RUGBY UNION"
+        },
+        {
+          "type": "PER",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "CUTTITTA"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "CUTTITTA"
+        },
+        {
+          "type": "MISC",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "ITALY"
+        }
+      ]
+    },
+    {
+      "source_row": 28,
+      "text": "Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 6,
+          "end_word_exclusive": 9,
+          "text": "1995 World Cup"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 7,
+          "end_word_exclusive": 9,
+          "text": "World Cup"
+        }
+      ]
+    },
+    {
+      "source_row": 34,
+      "text": "SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "JAPAN"
+        },
+        {
+          "type": "LOC",
+          "start_word": 8,
+          "end_word_exclusive": 9,
+          "text": "SYRIA"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "JAPAN"
+        }
+      ]
+    },
+    {
+      "source_row": 39,
+      "text": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ]
+    },
+    {
+      "source_row": 42,
+      "text": "Japan then laid siege to the Syrian penalty area and had a goal disallowed for offside in the 16th minute .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "Syrian"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "Syrian"
+        }
+      ]
+    },
+    {
+      "source_row": 48,
+      "text": "FREESTYLE SKIING-WORLD CUP MOGUL RESULTS .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 1,
+          "end_word_exclusive": 3,
+          "text": "SKIING-WORLD CUP"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 105,
+      "text": "Waqar Younis st Germon b Harris 0",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "Waqar Younis"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "Waqar"
+        },
+        {
+          "type": "PER",
+          "start_word": 1,
+          "end_word_exclusive": 2,
+          "text": "Younis"
+        }
+      ]
+    },
+    {
+      "source_row": 114,
+      "text": "Astle 9-0-53-1 ( w-1 nb-1 )",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "Astle"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "Astle"
+        }
+      ]
+    },
+    {
+      "source_row": 118,
+      "text": "A. Parore c Ijaz Ahmad b Saqlain 37",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "A. Parore"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "A."
+        },
+        {
+          "type": "PER",
+          "start_word": 1,
+          "end_word_exclusive": 2,
+          "text": "Parore"
+        }
+      ]
+    },
+    {
+      "source_row": 119,
+      "text": "S. Fleming c and b Afridi 88",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "Afridi"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "Afridi"
+        }
+      ]
+    },
+    {
+      "source_row": 123,
+      "text": "L. Germon lbw b Afridi 2",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "L. Germon"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 3,
+          "text": "L. Germon lbw"
+        }
+      ]
+    },
+    {
+      "source_row": 125,
+      "text": "S. Doull c subs ( M. Wasim ) b Waqar 1",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 5,
+          "end_word_exclusive": 7,
+          "text": "M. Wasim"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "M."
+        },
+        {
+          "type": "PER",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "Wasim"
+        }
+      ]
+    },
+    {
+      "source_row": 137,
+      "text": "SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 2,
+          "end_word_exclusive": 5,
+          "text": "ENGLISH F.A. CUP"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "ENGLISH"
+        },
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 5,
+          "text": "F.A. CUP"
+        }
+      ]
+    },
+    {
+      "source_row": 139,
+      "text": "Result of an English F.A. Challenge",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 6,
+          "text": "English F.A. Challenge"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "English"
+        },
+        {
+          "type": "MISC",
+          "start_word": 4,
+          "end_word_exclusive": 6,
+          "text": "F.A. Challenge"
+        }
+      ]
+    },
+    {
+      "source_row": 148,
+      "text": "Blinker was fined 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 15,
+          "end_word_exclusive": 16,
+          "text": "Engllsh"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 15,
+          "end_word_exclusive": 16,
+          "text": "Engllsh"
+        }
+      ]
+    },
+    {
+      "source_row": 149,
+      "text": "SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "LEEDS"
+        },
+        {
+          "type": "PER",
+          "start_word": 4,
+          "end_word_exclusive": 5,
+          "text": "BOWYER"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 151,
+      "text": "Leeds ' England under-21 striker Lee Bowyer was fined 4,500 pounds ( $ 7,400 ) on Friday for hurling chairs at restaurant staff during a disturbance at a McDonald 's fast-food restaurant .",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 28,
+          "end_word_exclusive": 30,
+          "text": "McDonald 's"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 163,
+      "text": "Stefanel Milan ( Italy ) 9 6 3 15",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "Stefanel Milan"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "Stefanel Milan"
+        }
+      ]
+    }
+  ],
+  "note": "Gold errors are mutually exclusive (type, boundary, missed). False positives are counted separately. No BIO repair."
+}

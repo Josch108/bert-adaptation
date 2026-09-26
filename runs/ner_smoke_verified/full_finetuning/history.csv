@@ -1,0 +1,2 @@
+epoch,train_loss,train_seconds,validation_seconds,val_loss,val_precision,val_recall,val_f1,val_token_accuracy,val_conlleval_f1,val_invalid_predicted_i_transitions
+1,2.1228707154591877,0.41122510001878254,0.03795920000993647,1.8010081824425346,0.0,0.0,0.0,0.6804979253112033,0.0,40

@@ -12,7 +12,11 @@ La implementación está en `src/agnews_experiment.py`; las dependencias especí
 
 **Las cifras de `report/REPORT.md` y `report/report.pdf` son del borrador anterior y no están verificadas.**
 Para AG News, usa `runs/agnews_verified/RESULTS.md` solo cuando su `status.json` indique `complete`.
-NER, POS y QA siguen pendientes de corrección y ejecución. Las salidas smoke son pruebas técnicas, no resultados finales.
+POS y QA siguen pendientes de corrección y ejecución. Las salidas smoke son pruebas técnicas, no resultados finales.
+
+## Estado de NER
+
+**NER completado:** F1 estricto en prueba 0.8911 (parcial) y 0.9150 (completo). [Resultados verificados](report/NER_RESULTS.md) y [guía](NER_GUIDE.md). Modelo elegido por validación y exportado localmente; una semilla por configuración.
 
 ## Estructura del Proyecto
 

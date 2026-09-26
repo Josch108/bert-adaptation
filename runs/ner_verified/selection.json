@@ -1,0 +1,7 @@
+{
+  "winner": "full_finetuning",
+  "criterion": "maximum strict IOB2 micro entity F1 on validation; exact tie: fewer trainable parameters",
+  "single_seed": true,
+  "test_used_for_selection": false,
+  "smoke": false
+}

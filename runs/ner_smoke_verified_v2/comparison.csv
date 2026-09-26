@@ -1,0 +1,3 @@
+method,best_epoch,best_val_f1,trainable_parameters,total_parameters,frozen_parameters_verified,train_seconds,peak_allocated_gpu_bytes,test_loss,test_precision,test_recall,test_f1,test_token_accuracy,test_conlleval_f1,test_invalid_predicted_i_transitions,selected
+partial_finetuning,1,0.0,14182665,107726601,True,0.38947329999064095,755843072,1.9691945779614333,0.0,0.0,0.0,0.3333333333333333,0.0,44,True
+full_finetuning,1,0.0,107726601,107726601,False,0.36608229999546893,2264827904,1.8544842256763117,0.0,0.0,0.0,0.5365853658536586,0.0,26,False

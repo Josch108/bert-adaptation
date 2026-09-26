@@ -1,0 +1,15 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.1228707154591877,
+    "train_seconds": 0.36608229999546893,
+    "validation_seconds": 0.032960399985313416,
+    "val_loss": 1.8010081824425346,
+    "val_precision": 0.0,
+    "val_recall": 0.0,
+    "val_f1": 0.0,
+    "val_token_accuracy": 0.6804979253112033,
+    "val_conlleval_f1": 0.0,
+    "val_invalid_predicted_i_transitions": 40
+  }
+]

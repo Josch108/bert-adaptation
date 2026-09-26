@@ -1,0 +1,441 @@
+{
+  "counts": {
+    "gold_entities": 5648,
+    "predicted_entities": 5694,
+    "correct_entities": 5189,
+    "false_positive_entities": 505,
+    "wrong_type_exact_boundary": 220,
+    "missed_entity": 82,
+    "overlapping_wrong_boundary": 157
+  },
+  "examples": [
+    {
+      "source_row": 0,
+      "text": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "JAPAN"
+        },
+        {
+          "type": "PER",
+          "start_word": 7,
+          "end_word_exclusive": 8,
+          "text": "CHINA"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 7,
+          "end_word_exclusive": 8,
+          "text": "CHINA"
+        },
+        {
+          "type": "PER",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "JAPAN"
+        },
+        {
+          "type": "PER",
+          "start_word": 4,
+          "end_word_exclusive": 5,
+          "text": "LUCKY"
+        }
+      ]
+    },
+    {
+      "source_row": 12,
+      "text": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ]
+    },
+    {
+      "source_row": 15,
+      "text": "Bitar pulled off fine saves whenever they did .",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "Bitar"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "Bitar"
+        }
+      ]
+    },
+    {
+      "source_row": 22,
+      "text": "RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "ITALY"
+        },
+        {
+          "type": "PER",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "CUTTITTA"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "CUTTITTA"
+        }
+      ]
+    },
+    {
+      "source_row": 28,
+      "text": "Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 6,
+          "end_word_exclusive": 9,
+          "text": "1995 World Cup"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 7,
+          "end_word_exclusive": 9,
+          "text": "World Cup"
+        }
+      ]
+    },
+    {
+      "source_row": 34,
+      "text": "SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "JAPAN"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 5,
+          "end_word_exclusive": 6,
+          "text": "JAPAN"
+        }
+      ]
+    },
+    {
+      "source_row": 39,
+      "text": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 27,
+          "end_word_exclusive": 28,
+          "text": "Bitar"
+        }
+      ]
+    },
+    {
+      "source_row": 48,
+      "text": "FREESTYLE SKIING-WORLD CUP MOGUL RESULTS .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 1,
+          "end_word_exclusive": 3,
+          "text": "SKIING-WORLD CUP"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 91,
+      "text": "CRICKET - PAKISTAN V NEW ZEALAND ONE-DAY SCOREBOARD .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 4,
+          "end_word_exclusive": 6,
+          "text": "NEW ZEALAND"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 137,
+      "text": "SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 2,
+          "end_word_exclusive": 5,
+          "text": "ENGLISH F.A. CUP"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "ENGLISH"
+        },
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 5,
+          "text": "F.A. CUP"
+        }
+      ]
+    },
+    {
+      "source_row": 139,
+      "text": "Result of an English F.A. Challenge",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 6,
+          "text": "English F.A. Challenge"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "English"
+        },
+        {
+          "type": "MISC",
+          "start_word": 4,
+          "end_word_exclusive": 6,
+          "text": "F.A. Challenge"
+        }
+      ]
+    },
+    {
+      "source_row": 146,
+      "text": "FIFA 's players ' status committee , meeting in Barcelona , decided that although the Udinese document was basically valid , it could not be legally protected .",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 15,
+          "end_word_exclusive": 16,
+          "text": "Udinese"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 15,
+          "end_word_exclusive": 16,
+          "text": "Udinese"
+        }
+      ]
+    },
+    {
+      "source_row": 148,
+      "text": "Blinker was fined 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 15,
+          "end_word_exclusive": 16,
+          "text": "Engllsh"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 15,
+          "end_word_exclusive": 16,
+          "text": "Engllsh"
+        }
+      ]
+    },
+    {
+      "source_row": 149,
+      "text": "SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "LEEDS"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "LEEDS"
+        }
+      ]
+    },
+    {
+      "source_row": 183,
+      "text": "Efes Pilsen ( Turkey ) 9 7 2 16",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "Efes Pilsen"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "Efes Pilsen"
+        }
+      ]
+    },
+    {
+      "source_row": 189,
+      "text": "RUGBY UNION - LITTLE TO MISS CAMPESE FAREWELL .",
+      "missed_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "LITTLE"
+        },
+        {
+          "type": "PER",
+          "start_word": 6,
+          "end_word_exclusive": 7,
+          "text": "CAMPESE"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 193,
+      "text": "Little has opted not to risk aggravating the knee injury which ruled him out of a large chunk of the tour and is replaced by fellow Queenslander Daniel Herbert .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 26,
+          "end_word_exclusive": 27,
+          "text": "Queenslander"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 26,
+          "end_word_exclusive": 27,
+          "text": "Queenslander"
+        }
+      ]
+    },
+    {
+      "source_row": 204,
+      "text": "GOLF - ZIMBABWE OPEN SECOND ROUND SCORES .",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 2,
+          "end_word_exclusive": 4,
+          "text": "ZIMBABWE OPEN"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "GOLF"
+        },
+        {
+          "type": "LOC",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "ZIMBABWE"
+        }
+      ]
+    },
+    {
+      "source_row": 212,
+      "text": "SOCCER - UNCAPPED PLAYERS CALLED TO FACE MACEDONIA .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 7,
+          "end_word_exclusive": 8,
+          "text": "MACEDONIA"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 7,
+          "end_word_exclusive": 8,
+          "text": "MACEDONIA"
+        }
+      ]
+    },
+    {
+      "source_row": 225,
+      "text": "REUTER",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "REUTER"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "REUTER"
+        }
+      ]
+    }
+  ],
+  "note": "Gold errors are mutually exclusive (type, boundary, missed). False positives are counted separately. No BIO repair."
+}

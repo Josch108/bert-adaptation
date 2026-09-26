@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "device": "cuda",
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "precision": "bf16"
+}
