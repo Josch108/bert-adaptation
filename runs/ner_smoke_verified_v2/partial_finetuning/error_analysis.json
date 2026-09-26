@@ -1,0 +1,242 @@
+{
+  "counts": {
+    "gold_entities": 22,
+    "predicted_entities": 2,
+    "correct_entities": 0,
+    "false_positive_entities": 2,
+    "missed_entity": 21,
+    "overlapping_wrong_boundary": 1
+  },
+  "examples": [
+    {
+      "source_row": 306,
+      "text": "On several occasions during his innings , the crowd joined together in a series of obscene chants against him .",
+      "missed_or_wrong": [],
+      "extra_or_wrong": [
+        {
+          "type": "PER",
+          "start_word": 12,
+          "end_word_exclusive": 13,
+          "text": "a"
+        }
+      ]
+    },
+    {
+      "source_row": 2538,
+      "text": "6. Miriam Vogt ( Germany ) 1:49.28",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 4,
+          "end_word_exclusive": 5,
+          "text": "Germany"
+        },
+        {
+          "type": "PER",
+          "start_word": 1,
+          "end_word_exclusive": 3,
+          "text": "Miriam Vogt"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 2402,
+      "text": "5. Isolde Kostner ( Italy ) 1:18.19",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 4,
+          "end_word_exclusive": 5,
+          "text": "Italy"
+        },
+        {
+          "type": "PER",
+          "start_word": 1,
+          "end_word_exclusive": 3,
+          "text": "Isolde Kostner"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 2251,
+      "text": "-- Canberra Bureau 61-6 273-2730",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 1,
+          "end_word_exclusive": 2,
+          "text": "Canberra"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 1815,
+      "text": "The five breeds credited with the most incidents were chow chows , Rottweilers , German shepherds , cocker spaniels and Dalmatians . \"",
+      "missed_or_wrong": [
+        {
+          "type": "MISC",
+          "start_word": 12,
+          "end_word_exclusive": 13,
+          "text": "Rottweilers"
+        },
+        {
+          "type": "MISC",
+          "start_word": 14,
+          "end_word_exclusive": 16,
+          "text": "German shepherds"
+        },
+        {
+          "type": "MISC",
+          "start_word": 17,
+          "end_word_exclusive": 19,
+          "text": "cocker spaniels"
+        },
+        {
+          "type": "MISC",
+          "start_word": 20,
+          "end_word_exclusive": 21,
+          "text": "Dalmatians"
+        }
+      ],
+      "extra_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 18,
+          "end_word_exclusive": 19,
+          "text": "spaniels"
+        }
+      ]
+    },
+    {
+      "source_row": 2626,
+      "text": "7. Czech Republic I ( Jiri Dzmura , Pavel Polomsky )",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 1,
+          "end_word_exclusive": 4,
+          "text": "Czech Republic I"
+        },
+        {
+          "type": "PER",
+          "start_word": 5,
+          "end_word_exclusive": 7,
+          "text": "Jiri Dzmura"
+        },
+        {
+          "type": "PER",
+          "start_word": 8,
+          "end_word_exclusive": 10,
+          "text": "Pavel Polomsky"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 1490,
+      "text": "BEIJING 1996-12-06",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "BEIJING"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 295,
+      "text": "HOBART , Australia 1996-12-06",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 0,
+          "end_word_exclusive": 1,
+          "text": "HOBART"
+        },
+        {
+          "type": "LOC",
+          "start_word": 2,
+          "end_word_exclusive": 3,
+          "text": "Australia"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 2956,
+      "text": "Sheffield Wednesday 16 6 6 4 17 18 24",
+      "missed_or_wrong": [
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "Sheffield Wednesday"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 3364,
+      "text": "NY RANGERS AT TORONTO",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "TORONTO"
+        },
+        {
+          "type": "ORG",
+          "start_word": 0,
+          "end_word_exclusive": 2,
+          "text": "NY RANGERS"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 2661,
+      "text": "4. Eric Bergoust ( U.S ) 207.15",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 4,
+          "end_word_exclusive": 5,
+          "text": "U.S"
+        },
+        {
+          "type": "PER",
+          "start_word": 1,
+          "end_word_exclusive": 3,
+          "text": "Eric Bergoust"
+        }
+      ],
+      "extra_or_wrong": []
+    },
+    {
+      "source_row": 694,
+      "text": "The Portuguese host Germany on December 14 .",
+      "missed_or_wrong": [
+        {
+          "type": "LOC",
+          "start_word": 3,
+          "end_word_exclusive": 4,
+          "text": "Germany"
+        },
+        {
+          "type": "MISC",
+          "start_word": 1,
+          "end_word_exclusive": 2,
+          "text": "Portuguese"
+        }
+      ],
+      "extra_or_wrong": []
+    }
+  ],
+  "note": "Gold errors are mutually exclusive (type, boundary, missed). False positives are counted separately. No BIO repair."
+}

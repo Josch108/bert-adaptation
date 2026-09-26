@@ -1,4 +1,4 @@
-> **BORRADOR NO VERIFICADO:** las cifras siguientes no tienen evidencia de ejecución en la versión original. Para AG News, consultar `runs/agnews_verified/RESULTS.md` tras completar la ejecución. NER, POS y QA siguen pendientes. El PDF anterior tampoco ha sido actualizado.
+> **BORRADOR NO VERIFICADO:** las cifras siguientes no tienen evidencia de ejecución en la versión original. Para AG News, consultar `runs/agnews_verified/RESULTS.md` tras completar la ejecución. NER tiene resultados verificados en `NER_RESULTS.md`; POS y QA siguen pendientes. El PDF anterior tampoco ha sido actualizado.
 
 # Adapting BERT for NLP Tasks: An Empirical Study of the Adaptation Ladder
 

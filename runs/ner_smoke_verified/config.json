@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "epochs": 1,
+  "micro_batch": 8,
+  "accumulation": 2,
+  "top_layers": 2,
+  "head_lr": 0.001,
+  "backbone_lr": 2e-05,
+  "weight_decay": 0.01,
+  "model_id": "google-bert/bert-base-cased",
+  "dataset_id": "lhoestq/conll2003",
+  "model_revision": "cd5ef92a9fb2f889e972770a36d4ed042daf221e",
+  "dataset_revision": "19edcb426bfd625c275c17b9a99b2239243f4377",
+  "smoke": true
+}

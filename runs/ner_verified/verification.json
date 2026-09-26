@@ -1,0 +1,9 @@
+{
+  "offline_tests_passed": 3,
+  "gpu_smoke_complete": true,
+  "executed_notebook_no_errors": true,
+  "metrics_recomputed": true,
+  "all_test_words_evaluated": true,
+  "selected_export_sha256_matches": true,
+  "executed_source_matches": true
+}
