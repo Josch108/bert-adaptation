@@ -1,5 +1,5 @@
 # U2T01: Adapting BERT for NLP Tasks
-
+ 
 Proyecto enfocado en la adaptación empírica de `bert-base` a través de los tres peldaños de la escalera de adaptación (*Feature-based*, *Partial fine-tuning*, *Full fine-tuning*) en cuatro tareas clásicas de NLP.
 
 ## Estado de la revisión de AG News
