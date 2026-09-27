@@ -1,7 +1,7 @@
 # U2T01: Adapting BERT for NLP Tasks
 
 **Final delivery completed:** English PDF report, eight measured alternatives across four tasks, four executed notebooks, and four public Hugging Face model/tokenizer repositories.
-
+Repository made by Alberto Arana, Joseu Chan, Gael Lara y Fabio Martin
 - [Final English report](report/report.pdf) / [editable Markdown](report/REPORT.md)
 - [Submission guide](DELIVERY.md)
 - [Detailed experiment index](report/EXPERIMENTS_STATUS.md)
