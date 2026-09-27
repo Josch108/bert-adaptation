@@ -1,0 +1,56 @@
+{
+  "pos": {
+    "status": "verified",
+    "selected_by_validation": "partial_finetuning",
+    "same_test_examples": true,
+    "source_matches_executed_snapshot": true,
+    "only_documented_utf8_read_fix": false,
+    "export_matches_selected_checkpoint": true,
+    "model_sha256": "ad2719aa852b6556c3d7d892f4f6646064d17bf22eb5c984dcd4ad6146846d6c",
+    "executed_code_cells": 5,
+    "recomputed_metrics": [
+      {
+        "method": "frozen",
+        "sentences": 2077,
+        "words": 25094,
+        "correct": 23395,
+        "accuracy": 0.9322945724077468,
+        "macro_f1": 0.865129357866465
+      },
+      {
+        "method": "partial_finetuning",
+        "sentences": 2077,
+        "words": 25094,
+        "correct": 24023,
+        "accuracy": 0.9573204750139476,
+        "macro_f1": 0.8975131951071644
+      }
+    ]
+  },
+  "qa": {
+    "status": "verified",
+    "selected_by_validation": "full_finetuning",
+    "same_test_examples": true,
+    "source_matches_executed_snapshot": false,
+    "only_documented_utf8_read_fix": true,
+    "export_matches_selected_checkpoint": true,
+    "model_sha256": "fd624a9d7698f58f6e27497684dcf9c7294cde72db9377da7f0602048363271d",
+    "executed_code_cells": 6,
+    "recomputed_metrics": [
+      {
+        "method": "partial_finetuning",
+        "questions": 2000,
+        "exact_match": 47.8,
+        "f1": 61.74906537716009,
+        "all_answers_from_context": true
+      },
+      {
+        "method": "full_finetuning",
+        "questions": 2000,
+        "exact_match": 73.6,
+        "f1": 83.27740228969496,
+        "all_answers_from_context": true
+      }
+    ]
+  }
+}

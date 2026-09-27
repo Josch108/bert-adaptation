@@ -1,0 +1,7 @@
+{
+  "winner": "partial_finetuning",
+  "criterion": "maximum word accuracy on validation; exact tie: fewer trainable parameters",
+  "single_seed": true,
+  "test_used_for_selection": false,
+  "smoke": true
+}

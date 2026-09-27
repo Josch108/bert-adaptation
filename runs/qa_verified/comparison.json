@@ -1,0 +1,30 @@
+[
+  {
+    "method": "partial_finetuning",
+    "best_epoch": 3,
+    "best_val_f1": 58.37301797522163,
+    "trainable_parameters": 14177282,
+    "total_parameters": 108893186,
+    "frozen_parameters_verified": true,
+    "train_seconds": 305.73657120007556,
+    "peak_allocated_gpu_bytes": 838847488,
+    "test_exact_match": 47.8,
+    "test_f1": 61.74906537716013,
+    "test_loss": 1.9262970177410859,
+    "selected": false
+  },
+  {
+    "method": "full_finetuning",
+    "best_epoch": 3,
+    "best_val_f1": 77.28249836283702,
+    "trainable_parameters": 108893186,
+    "total_parameters": 108893186,
+    "frozen_parameters_verified": false,
+    "train_seconds": 845.9825941000599,
+    "peak_allocated_gpu_bytes": 2699117056,
+    "test_exact_match": 73.6,
+    "test_f1": 83.27740228969499,
+    "test_loss": 1.2625670313247905,
+    "selected": true
+  }
+]

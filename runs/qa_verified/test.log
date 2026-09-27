@@ -1,0 +1,10 @@
+test_best_span_across_windows (__main__.QA.test_best_span_across_windows) ... ok
+test_decode_masks_and_length (__main__.QA.test_decode_masks_and_length) ... ok
+test_metrics (__main__.QA.test_metrics) ... ok
+test_overflow_alignment (__main__.QA.test_overflow_alignment) ... ok
+test_partial_answer_is_negative (__main__.QA.test_partial_answer_is_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.126s
+
+OK

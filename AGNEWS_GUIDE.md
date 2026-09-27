@@ -51,7 +51,7 @@ matrices de confusión, todas las predicciones de prueba, curvas y `RESULTS.md`.
 Una ejecución completa produce además `delivered_model_agnews/`, compatible con `pipeline` de Transformers.
 No se publica automáticamente. La model card no afirma accesos que aún no se hayan comprobado.
 
-Las cifras del reporte original siguen pendientes de verificación; usar los resultados generados en `runs/`.
+El reporte final en inglés incorpora los resultados verificados de `runs/`; el borrador anterior está archivado.
 NER, POS y QA no han sido reentrenados en esta etapa.
 
 ## Comprobaciones automáticas

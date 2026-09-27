@@ -1,0 +1,6 @@
+{
+  "python": "3.12.14",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "precision": "bf16"
+}

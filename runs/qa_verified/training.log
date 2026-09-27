@@ -1,0 +1,269 @@
+
+Tokenize train:   0%|          | 0/15000 [00:00<?, ? examples/s]
+Tokenize train:   7%|6         | 1000/15000 [00:00<00:09, 1499.25 examples/s]
+Tokenize train:  13%|#3        | 2000/15000 [00:01<00:08, 1562.65 examples/s]
+Tokenize train:  20%|##        | 3000/15000 [00:01<00:07, 1629.81 examples/s]
+Tokenize train:  27%|##6       | 4000/15000 [00:02<00:06, 1647.17 examples/s]
+Tokenize train:  33%|###3      | 5000/15000 [00:03<00:06, 1649.23 examples/s]
+Tokenize train:  40%|####      | 6000/15000 [00:03<00:05, 1657.37 examples/s]
+Tokenize train:  47%|####6     | 7000/15000 [00:04<00:05, 1566.04 examples/s]
+Tokenize train:  53%|#####3    | 8000/15000 [00:04<00:04, 1605.71 examples/s]
+Tokenize train:  60%|######    | 9000/15000 [00:05<00:03, 1611.18 examples/s]
+Tokenize train:  67%|######6   | 10000/15000 [00:06<00:03, 1638.57 examples/s]
+Tokenize train:  73%|#######3  | 11000/15000 [00:06<00:02, 1637.06 examples/s]
+Tokenize train:  80%|########  | 12000/15000 [00:07<00:01, 1643.16 examples/s]
+Tokenize train:  87%|########6 | 13000/15000 [00:08<00:01, 1617.56 examples/s]
+Tokenize train:  93%|#########3| 14000/15000 [00:08<00:00, 1610.76 examples/s]
+Tokenize train: 100%|##########| 15000/15000 [00:09<00:00, 1510.91 examples/s]
+Tokenize train: 100%|##########| 15000/15000 [00:09<00:00, 1589.20 examples/s]
+
+Tokenize validation:   0%|          | 0/2000 [00:00<?, ? examples/s]
+Tokenize validation:  50%|#####     | 1000/2000 [00:00<00:00, 1670.20 examples/s]
+Tokenize validation: 100%|##########| 2000/2000 [00:01<00:00, 1628.18 examples/s]
+Tokenize validation: 100%|##########| 2000/2000 [00:01<00:00, 1610.64 examples/s]
+
+Tokenize test:   0%|          | 0/2000 [00:00<?, ? examples/s]
+Tokenize test:  50%|#####     | 1000/2000 [00:00<00:00, 1683.07 examples/s]
+Tokenize test: 100%|##########| 2000/2000 [00:01<00:00, 1626.06 examples/s]
+Tokenize test: 100%|##########| 2000/2000 [00:01<00:00, 1613.27 examples/s]
+Some weights of BertForQuestionAnswering were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+C:\Users\IGNITER\Documents\ChatGPT\Cosas Escuela 2\.venv-agnews\Lib\site-packages\torch\autograd\graph.py:823: UserWarning: Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\transformers\cuda\attention_backward.cu:685.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 1900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 2900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 1, 'batch': 3700, 'batches': 3790}
+partial_finetuning {'epoch': 1, 'train_loss': 3.1610398052219852, 'train_seconds': 94.2369219000102, 'validation_seconds': 10.268746900022961, 'val_exact_match': 38.5, 'val_f1': 53.503347698245605, 'val_loss': 2.051770992599141}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 1900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 2900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 2, 'batch': 3700, 'batches': 3790}
+partial_finetuning {'epoch': 2, 'train_loss': 2.0229324381256633, 'train_seconds': 105.66079430002719, 'validation_seconds': 10.53270490001887, 'val_exact_match': 42.449999999999996, 'val_f1': 57.53991672045127, 'val_loss': 1.8605770947078843}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 1900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2700, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2800, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 2900, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3000, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3100, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3200, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3300, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3400, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3500, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3600, 'batches': 3790}
+{'method': 'partial_finetuning', 'epoch': 3, 'batch': 3700, 'batches': 3790}
+partial_finetuning {'epoch': 3, 'train_loss': 1.803909161150774, 'train_seconds': 105.83885500003817, 'validation_seconds': 10.751110299956053, 'val_exact_match': 43.15, 'val_f1': 58.37301797522163, 'val_loss': 1.8315841151366465}
+Some weights of BertForQuestionAnswering were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 1900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 2900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 1, 'batch': 3700, 'batches': 3790}
+full_finetuning {'epoch': 1, 'train_loss': 2.337417168957442, 'train_seconds': 284.0189067000174, 'validation_seconds': 10.78534560004482, 'val_exact_match': 60.3, 'val_f1': 74.5810815704192, 'val_loss': 1.2318901493189247}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 1900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 2900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 2, 'batch': 3700, 'batches': 3790}
+full_finetuning {'epoch': 2, 'train_loss': 1.1082367289584547, 'train_seconds': 283.43195560004096, 'validation_seconds': 10.753616699948907, 'val_exact_match': 63.349999999999994, 'val_f1': 76.81602628174744, 'val_loss': 1.1516020881694256}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 1900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2700, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2800, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 2900, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3000, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3100, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3200, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3300, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3400, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3500, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3600, 'batches': 3790}
+{'method': 'full_finetuning', 'epoch': 3, 'batch': 3700, 'batches': 3790}
+full_finetuning {'epoch': 3, 'train_loss': 0.7722292669460024, 'train_seconds': 278.5317318000016, 'validation_seconds': 10.564000200014561, 'val_exact_match': 63.9, 'val_f1': 77.28249836283702, 'val_loss': 1.214672532333438}
+Traceback (most recent call last):
+  File "C:\Users\IGNITER\Documents\ChatGPT\Cosas Escuela 2\qa_update\qa_experiment.py", line 225, in <module>
+    run(cfg,args.output,args.prepare_only)
+  File "C:\Users\IGNITER\Documents\ChatGPT\Cosas Escuela 2\qa_update\qa_experiment.py", line 216, in run
+    assert reloaded==json.loads((out/winner/'test_predictions.json').read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

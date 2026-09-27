@@ -1,0 +1,10 @@
+{
+  "method": "frozen",
+  "best_epoch": 3,
+  "best_val_accuracy": 0.9312497514811722,
+  "trainable_parameters": 13073,
+  "total_parameters": 108904721,
+  "frozen_parameters_verified": true,
+  "train_seconds": 79.85155730001861,
+  "peak_allocated_gpu_bytes": 554948096
+}

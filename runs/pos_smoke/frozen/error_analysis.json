@@ -1,0 +1,321 @@
+{
+  "counts": {
+    "words": 246,
+    "errors": 225,
+    "correct": 21
+  },
+  "top_confusions": [
+    {
+      "gold": "PUNCT",
+      "prediction": "CCONJ",
+      "count": 12
+    },
+    {
+      "gold": "VERB",
+      "prediction": "INTJ",
+      "count": 10
+    },
+    {
+      "gold": "NOUN",
+      "prediction": "AUX",
+      "count": 8
+    },
+    {
+      "gold": "PROPN",
+      "prediction": "ADJ",
+      "count": 7
+    },
+    {
+      "gold": "PROPN",
+      "prediction": "NOUN",
+      "count": 7
+    },
+    {
+      "gold": "DET",
+      "prediction": "NOUN",
+      "count": 7
+    },
+    {
+      "gold": "VERB",
+      "prediction": "AUX",
+      "count": 7
+    },
+    {
+      "gold": "ADV",
+      "prediction": "NOUN",
+      "count": 6
+    },
+    {
+      "gold": "ADJ",
+      "prediction": "NOUN",
+      "count": 6
+    },
+    {
+      "gold": "PUNCT",
+      "prediction": "AUX",
+      "count": 6
+    },
+    {
+      "gold": "ADP",
+      "prediction": "NOUN",
+      "count": 5
+    },
+    {
+      "gold": "NOUN",
+      "prediction": "INTJ",
+      "count": 4
+    },
+    {
+      "gold": "PROPN",
+      "prediction": "AUX",
+      "count": 4
+    },
+    {
+      "gold": "AUX",
+      "prediction": "ADP",
+      "count": 4
+    },
+    {
+      "gold": "CCONJ",
+      "prediction": "NOUN",
+      "count": 4
+    },
+    {
+      "gold": "PRON",
+      "prediction": "NOUN",
+      "count": 4
+    },
+    {
+      "gold": "AUX",
+      "prediction": "PUNCT",
+      "count": 4
+    },
+    {
+      "gold": "NOUN",
+      "prediction": "ADJ",
+      "count": 3
+    },
+    {
+      "gold": "DET",
+      "prediction": "ADV",
+      "count": 3
+    },
+    {
+      "gold": "NOUN",
+      "prediction": "PUNCT",
+      "count": 3
+    }
+  ],
+  "examples": [
+    {
+      "source_row": 906,
+      "word": "<",
+      "gold": "PUNCT",
+      "prediction": "PART",
+      "sentence": "< http://news.bbc.co.uk/go/em/fr/-/1/hi/technology/4630694.stm >"
+    },
+    {
+      "source_row": 906,
+      "word": "http://news.bbc.co.uk/go/em/fr/-/1/hi/technology/4630694.stm",
+      "gold": "PROPN",
+      "prediction": "PRON",
+      "sentence": "< http://news.bbc.co.uk/go/em/fr/-/1/hi/technology/4630694.stm >"
+    },
+    {
+      "source_row": 906,
+      "word": ">",
+      "gold": "PUNCT",
+      "prediction": "CCONJ",
+      "sentence": "< http://news.bbc.co.uk/go/em/fr/-/1/hi/technology/4630694.stm >"
+    },
+    {
+      "source_row": 184,
+      "word": "Wolfowitz",
+      "gold": "PROPN",
+      "prediction": "NUM",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "contradicted",
+      "gold": "VERB",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "czar",
+      "gold": "NOUN",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "Richard",
+      "gold": "PROPN",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "Clarke",
+      "gold": "PROPN",
+      "prediction": "NOUN",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "when",
+      "gold": "ADV",
+      "prediction": "NOUN",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "the",
+      "gold": "DET",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "latter",
+      "gold": "ADJ",
+      "prediction": "PUNCT",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "spoke",
+      "gold": "VERB",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "of",
+      "gold": "ADP",
+      "prediction": "NOUN",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "the",
+      "gold": "DET",
+      "prediction": "ADP",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "al",
+      "gold": "PROPN",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "-",
+      "gold": "PUNCT",
+      "prediction": "ADP",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "Qaeda",
+      "gold": "PROPN",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "threat",
+      "gold": "NOUN",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": ",",
+      "gold": "PUNCT",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "insisting",
+      "gold": "VERB",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "that",
+      "gold": "SCONJ",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "the",
+      "gold": "DET",
+      "prediction": "ADV",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "preeminent",
+      "gold": "ADJ",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "threat",
+      "gold": "NOUN",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "of",
+      "gold": "ADP",
+      "prediction": "NOUN",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "terrorism",
+      "gold": "NOUN",
+      "prediction": "PUNCT",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "against",
+      "gold": "ADP",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "the",
+      "gold": "DET",
+      "prediction": "NOUN",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "US",
+      "gold": "PROPN",
+      "prediction": "ADJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    },
+    {
+      "source_row": 184,
+      "word": "came",
+      "gold": "VERB",
+      "prediction": "INTJ",
+      "sentence": "Wolfowitz contradicted counter-terrorism czar Richard Clarke when the latter spoke of the al - Qaeda threat , insisting that the preeminent threat of terrorism against the US came from Iraq , and indicating he accepted Laurie Mylroie 's crackpot conspiracy theory that Saddam was behind the 1993 World Trade Towers bombing ."
+    }
+  ]
+}

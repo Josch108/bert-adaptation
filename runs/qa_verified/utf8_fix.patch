@@ -1,0 +1,11 @@
+--- executed/qa_experiment.py
++++ src/qa_experiment.py
+@@ -213,7 +213,7 @@
+         (out/'delivered_model_qa'/'README.md').write_text('---\nlanguage: en\nbase_model: google-bert/bert-base-uncased\ndatasets:\n- rajpurkar/squad\npipeline_tag: question-answering\n---\n# Academic BERT QA\n\n```json\n'+json.dumps(card,indent=2)+'\n```\n',encoding='utf-8')
+         model=AutoModelForQuestionAnswering.from_pretrained(out/'delivered_model_qa',attn_implementation='sdpa').to(device)
+         scores,reloaded=evaluate(model,raw['test'],features['test'],cfg,device)
+-        assert reloaded==json.loads((out/winner/'test_predictions.json').read_text())
++        assert reloaded==json.loads((out/winner/'test_predictions.json').read_text(encoding='utf-8'))
+         save_json(out/'reload_verification.json',{'all_test_predictions_identical':True,'scores':scores})
+         save_json(out/'status.json',{'status':'completed','smoke':cfg.smoke})
+     except Exception as exc:

@@ -1,0 +1,9 @@
+{
+  "reason": "Windows cp1252 default cannot correctly decode UTF-8 predictions; training/evaluation artifacts unchanged",
+  "training_source_snapshot": "qa_experiment.py",
+  "training_source_sha256": "e060b904699905d1e0e4ffe5d7f44421d18b071821fb2e5855d36d4ff5d599f5",
+  "corrected_source_sha256": "0f0ce8a32046d20f14d22b53a7a66235f655dd6a5b01b86a4a1b3dd2d773df11",
+  "only_source_change": "test_predictions.json read_text() -> read_text(encoding='utf-8')",
+  "predictions_identical": true,
+  "training_repeated": false
+}

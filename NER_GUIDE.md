@@ -43,7 +43,7 @@ Las predicciones se obtienen por argmax en la primera subpalabra, sin corregir a
 Para inferencia equivalente, utilizar `predict_words(model, tokenizer, words)` de `src/ner_experiment.py`.
 Un pipeline genérico con otra agregación de subtokens puede producir resultados diferentes.
 
-Los modelos no se publican automáticamente. `report/report.pdf` conserva el borrador anterior;
-consultar `report/NER_RESULTS.md` y los resultados nuevos cuando la ejecución esté completa.
+Los modelos se publicaron al cerrar la entrega. `report/report.pdf` es el reporte final en inglés;
+consulta también `report/NER_RESULTS.md` para el análisis específico de NER.
 
 Fuentes: https://huggingface.co/datasets/lhoestq/conll2003 ; https://github.com/chakki-works/seqeval ; https://arxiv.org/abs/1810.04805

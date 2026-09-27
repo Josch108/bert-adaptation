@@ -1,0 +1,9 @@
+{
+  "all_test_predictions_identical": true,
+  "scores": {
+    "exact_match": 73.6,
+    "f1": 83.27740228969499,
+    "loss": 1.2625670313247905
+  },
+  "verification_recovered_with_explicit_utf8": true
+}

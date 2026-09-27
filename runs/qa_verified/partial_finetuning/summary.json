@@ -1,0 +1,10 @@
+{
+  "method": "partial_finetuning",
+  "best_epoch": 3,
+  "best_val_f1": 58.37301797522163,
+  "trainable_parameters": 14177282,
+  "total_parameters": 108893186,
+  "frozen_parameters_verified": true,
+  "train_seconds": 305.73657120007556,
+  "peak_allocated_gpu_bytes": 838847488
+}

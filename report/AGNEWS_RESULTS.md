@@ -18,7 +18,7 @@ Se evaluaron los mejores checkpoints de ambas alternativas en prueba despues de 
 No se afirma una causa linguistica de las diferencias sin analizar ejemplos y realizar experimentos adicionales.
 
 Evidencia: config.json, environment.json, splits.json, selection.json, comparison.csv, historiales por epoca y test_predictions.jsonl.
-Los resultados de NER, POS y QA del reporte anterior siguen pendientes de verificacion.
+Las cuatro tareas están completadas; consulta EXPERIMENTS_STATUS.md.
 
 ## Lectura de los resultados
 
@@ -67,5 +67,5 @@ Es una prueba de funcionamiento, adicional a la evaluación cuantitativa.
 - [Modelo y model card](../runs/agnews_verified/delivered_model_agnews/README.md)
 - [Guía de ejecución](../AGNEWS_GUIDE.md)
 
-El modelo está exportado localmente; no se ha publicado en Hugging Face.
-El reporte PDF previo no fue actualizado y sus cifras no deben mezclarse con estas mediciones.
+El modelo está publicado; consulta publication_manifest.json en la raíz del proyecto.
+El reporte final report.pdf incorpora estas mediciones; el borrador previo está archivado.

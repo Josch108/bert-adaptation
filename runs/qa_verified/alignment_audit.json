@@ -1,0 +1,118 @@
+{
+  "train": {
+    "positive_windows": 15033,
+    "negative_windows": 126,
+    "all_positive_spans_fully_cover_reference": true,
+    "normalized_exact_match_spans": 14992,
+    "token_boundary_expansion_examples": [
+      {
+        "id": "56ce726faab44d1400b88793",
+        "span": "23",
+        "answers": [
+          "3"
+        ]
+      },
+      {
+        "id": "56d62e521c85041400946f9f",
+        "span": "emotional",
+        "answers": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "56dfa04b38dc421700152128",
+        "span": "arrangements",
+        "answers": [
+          "men"
+        ]
+      },
+      {
+        "id": "572629d9ec44d21400f3db29",
+        "span": "The company's mainstay businesses",
+        "answers": [
+          "The company's mainstay business"
+        ]
+      },
+      {
+        "id": "56e6eb396fe0821900b8ec25",
+        "span": "Chinese",
+        "answers": [
+          "Ch"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "positive_windows": 2006,
+    "negative_windows": 20,
+    "all_positive_spans_fully_cover_reference": true,
+    "normalized_exact_match_spans": 1996,
+    "token_boundary_expansion_examples": [
+      {
+        "id": "56cf36e5aab44d1400b88e71",
+        "span": "865,000",
+        "answers": [
+          "65,000"
+        ]
+      },
+      {
+        "id": "56cbdea66d243a140015edae",
+        "span": "1817",
+        "answers": [
+          "7"
+        ]
+      },
+      {
+        "id": "56e080dc231d4119001ac20d",
+        "span": "10",
+        "answers": [
+          "1"
+        ]
+      },
+      {
+        "id": "56e14c5fcd28a01900c67772",
+        "span": "21st",
+        "answers": [
+          "21"
+        ]
+      },
+      {
+        "id": "56e0f816231d4119001ac511",
+        "span": "1962",
+        "answers": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "test": {
+    "positive_windows": 2006,
+    "negative_windows": 24,
+    "all_positive_spans_fully_cover_reference": true,
+    "normalized_exact_match_spans": 2003,
+    "token_boundary_expansion_examples": [
+      {
+        "id": "56bf159b3aeaaa14008c950a",
+        "span": "49",
+        "answers": [
+          "4"
+        ]
+      },
+      {
+        "id": "56d997cddc89441400fdb58a",
+        "span": "739",
+        "answers": [
+          "39"
+        ]
+      },
+      {
+        "id": "5729714daf94a219006aa42d",
+        "span": "are a third group of pigments found in cyanobacteria",
+        "answers": [
+          "e a third group of pigments found in cyanobacteria",
+          "a third group of pigments"
+        ]
+      }
+    ]
+  }
+}

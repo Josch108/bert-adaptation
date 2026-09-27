@@ -1,0 +1,17 @@
+{
+  "train": {
+    "examples_with_supervised_gold_span_at_most_30_tokens": 14965,
+    "total_examples": 15000,
+    "negative_windows": 126
+  },
+  "validation": {
+    "examples_with_supervised_gold_span_at_most_30_tokens": 1994,
+    "total_examples": 2000,
+    "negative_windows": 20
+  },
+  "test": {
+    "examples_with_supervised_gold_span_at_most_30_tokens": 2000,
+    "total_examples": 2000,
+    "negative_windows": 24
+  }
+}

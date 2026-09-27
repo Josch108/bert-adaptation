@@ -1,0 +1,50 @@
+[
+  {
+    "task": "AG News",
+    "run": "runs/agnews_verified",
+    "selected_method": "full_finetuning",
+    "local_model_dir": "runs/agnews_verified/delivered_model_agnews",
+    "report": "report/AGNEWS_RESULTS.md",
+    "published": true,
+    "hub_repo_id": "Terrificfantasm/bert-base-agnews-delivered",
+    "hub_url": "https://huggingface.co/Terrificfantasm/bert-base-agnews-delivered",
+    "hub_revision": "c0ca4affe00337c719150f52419207efd75595ad",
+    "publication_verified": true
+  },
+  {
+    "task": "NER",
+    "run": "runs/ner_verified",
+    "selected_method": "full_finetuning",
+    "local_model_dir": "runs/ner_verified/delivered_model_ner",
+    "report": "report/NER_RESULTS.md",
+    "published": true,
+    "hub_repo_id": "Terrificfantasm/bert-base-cased-conll2003-ner",
+    "hub_url": "https://huggingface.co/Terrificfantasm/bert-base-cased-conll2003-ner",
+    "hub_revision": "2b344e3debaf208ecd68d2a5e6dcbbc292b07402",
+    "publication_verified": true
+  },
+  {
+    "task": "POS",
+    "run": "runs/pos_verified",
+    "selected_method": "partial_finetuning",
+    "local_model_dir": "runs/pos_verified/delivered_model_pos",
+    "report": "report/POS_RESULTS.md",
+    "published": true,
+    "hub_repo_id": "Terrificfantasm/bert-base-uncased-ud-ewt-pos",
+    "hub_url": "https://huggingface.co/Terrificfantasm/bert-base-uncased-ud-ewt-pos",
+    "hub_revision": "db184e3b63980976c18c9df1da2fc5eb0792b959",
+    "publication_verified": true
+  },
+  {
+    "task": "QA",
+    "run": "runs/qa_verified",
+    "selected_method": "full_finetuning",
+    "local_model_dir": "runs/qa_verified/delivered_model_qa",
+    "report": "report/QA_RESULTS.md",
+    "published": true,
+    "hub_repo_id": "Terrificfantasm/bert-base-uncased-squad-qa",
+    "hub_url": "https://huggingface.co/Terrificfantasm/bert-base-uncased-squad-qa",
+    "hub_revision": "6a24d97e8418f229065762f247d25267dcbda79b",
+    "publication_verified": true
+  }
+]
