@@ -1,0 +1,202 @@
+{
+  "zero_f1": 13,
+  "partial_f1": 3,
+  "examples": [
+    {
+      "id": "56e10f14e3433e1400422b60",
+      "question": "How much time did he claim had to pass before he gave the ray to the world?",
+      "context": "In 1937, at a luncheon in his honor concerning the death ray, Tesla stated, \"But it is not an experiment ... I have built, demonstrated and used it. Only a little time will pass before I can give it to the world.\" His records indicate that the device is based on a narrow stream of small tungsten pellets that are accelerated via high voltage (by means akin to his magnifying transformer).",
+      "references": [
+        "Only a little",
+        "a little",
+        "Only a little time"
+      ],
+      "prediction": ", at a luncheon in his honor concerning the death ray, Tesla stated, \"But it is not an experiment ... I have built,",
+      "f1": 0.0
+    },
+    {
+      "id": "572814882ca10214002d9d76",
+      "question": "What actress plays the female Master?",
+      "context": "Following the series revival in 2005, Derek Jacobi provided the character's re-introduction in the 2007 episode \"Utopia\". During that story the role was then assumed by John Simm who returned to the role multiple times through the Tenth Doctor's tenure. As of the 2014 episode \"Dark Water,\" it was revealed that the Master had become a female incarnation or \"Time Lady,\" going by the name of \"Missy\" (short for Mistress, the feminine equivalent of \"Master\"). This incarnation is played by Michelle Gomez.",
+      "references": [
+        "Michelle Gomez",
+        "Michelle Gomez",
+        "Michelle Gomez"
+      ],
+      "prediction": "Jacobi provided the character's re-introduction in the 2007",
+      "f1": 0.0
+    },
+    {
+      "id": "5711488ab654c5140001fc40",
+      "question": "How many events occur in an engine cycle?",
+      "context": "In most reciprocating piston engines, the steam reverses its direction of flow at each stroke (counterflow), entering and exhausting from the cylinder by the same port. The complete engine cycle occupies one rotation of the crank and two piston strokes; the cycle also comprises four events – admission, expansion, exhaust, compression. These events are controlled by valves often working inside a steam chest adjacent to the cylinder; the valves distribute the steam by opening and closing steam ports communicating with the cylinder end(s) and are driven by valve gear, of which there are many types.[citation needed]",
+      "references": [
+        "four",
+        "four",
+        "four"
+      ],
+      "prediction": ", of",
+      "f1": 0.0
+    },
+    {
+      "id": "570966e0200fba1400367f53",
+      "question": "What does most of the HD material use as a standard?",
+      "context": "BSkyB's standard definition broadcasts are in DVB-compliant MPEG-2, with the Sky Movies and Sky Box Office channels including optional Dolby Digital soundtracks for recent films, although these are only accessible with a Sky+ box. Sky+ HD material is broadcast using MPEG-4 and most of the HD material uses the DVB-S2 standard. Interactive services and 7-day EPG use the proprietary OpenTV system, with set-top boxes including modems for a return path. Sky News, amongst other channels, provides a pseudo-video on demand interactive service by broadcasting looping video streams.",
+      "references": [
+        "DVB-S2",
+        "DVB-S2",
+        "DVB-compliant MPEG-2"
+      ],
+      "prediction": ", with set-top boxes including modems for a return path. Sky News, amongst other channels, provides a pseudo-",
+      "f1": 0.0
+    },
+    {
+      "id": "572863363acd2414000df988",
+      "question": "In the fall quarter of 2014, how many students signed up for the university's  in total?",
+      "context": "In the fall quarter of 2014, the University of Chicago enrolled 5,792 students in the College, 3,468 students in its four graduate divisions, 5,984 students in its professional schools, and 15,244 students overall. In the 2012 Spring Quarter, international students comprised almost 19% of the overall study body, over 26% of students were domestic ethnic minorities, and about 44% of enrolled students were female. Admissions to the University of Chicago is highly selective. The middle 50% band of SAT scores for the undergraduate class of 2015, excluding the writing section, was 1420–1530, the average MCAT score for entering students in the Pritzker School of Medicine in 2011 was 36, and the median LSAT score for entering students in the Law School in 2011 was 171. In 2015, the College of the University of Chicago had an acceptance rate of 7.8% for the Class of 2019, the lowest in the college's history.",
+      "references": [
+        "15,244",
+        "15,244",
+        "15,244"
+      ],
+      "prediction": "Pritzker School of Medicine in 2011",
+      "f1": 0.0
+    },
+    {
+      "id": "57293f8a6aef051400154bdf",
+      "question": "When was the Special Report on Renewable Energy Sources and Climate Change Mitigation (SRREN) issued?",
+      "context": "In addition to climate assessment reports, the IPCC is publishing Special Reports on specific topics. The preparation and approval process for all IPCC Special Reports follows the same procedures as for IPCC Assessment Reports. In the year 2011 two IPCC Special Report were finalized, the Special Report on Renewable Energy Sources and Climate Change Mitigation (SRREN) and the Special Report on Managing Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (SREX). Both Special Reports were requested by governments.",
+      "references": [
+        "2011",
+        "2011",
+        "2011"
+      ],
+      "prediction": "Mitigation (SRREN) and the Special Report on Managing Risks of Extreme Events and Disasters to Advance Climate Change Adaptation",
+      "f1": 0.0
+    },
+    {
+      "id": "573314e3d058e614000b56f2",
+      "question": "What was Warsaw's Old Town listed as in 1980?",
+      "context": "The city is the seat of a Roman Catholic archdiocese (left bank of the Vistula) and diocese (right bank), and possesses various universities, most notably the Polish Academy of Sciences and the University of Warsaw, two opera houses, theatres, museums, libraries and monuments. The historic city-centre of Warsaw with its picturesque Old Town in 1980 was listed as a UNESCO World Heritage Site. Other main architectural attractions include the Castle Square with the Royal Castle and the iconic King Sigismund's Column, St. John's Cathedral, Market Square, palaces, churches and mansions all displaying a richness of colour and architectural detail. Buildings represent examples of nearly every European architectural style and historical period. Warsaw provides many examples of architecture from the gothic, renaissance, baroque and neoclassical periods, and around a quarter of the city is filled with luxurious parks and royal gardens.",
+      "references": [
+        "a UNESCO World Heritage Site",
+        "UNESCO World Heritage Site",
+        "UNESCO World Heritage Site"
+      ],
+      "prediction": "Sigismund's Column, St. John's Cathedral, Market Square",
+      "f1": 0.0
+    },
+    {
+      "id": "5725ba5038643c19005acbe9",
+      "question": "How many study contracts were awarded on October 25th?",
+      "context": "In July 1960, NASA Deputy Administrator Hugh L. Dryden announced the Apollo program to industry representatives at a series of Space Task Group conferences. Preliminary specifications were laid out for a spacecraft with a mission module cabin separate from the command module (piloting and re-entry cabin), and a propulsion and equipment module. On August 30, a feasibility study competition was announced, and on October 25, three study contracts were awarded to General Dynamics/Convair, General Electric, and the Glenn L. Martin Company. Meanwhile, NASA performed its own in-house spacecraft design studies led by Maxime Faget, to serve as a gauge to judge and monitor the three industry designs.",
+      "references": [
+        "three",
+        "three",
+        "three",
+        "three",
+        "three study contracts"
+      ],
+      "prediction": "L. Dryden announced the Apollo program to industry representatives at a series of Space Task Group conferences. Preliminary specifications",
+      "f1": 0.0
+    },
+    {
+      "id": "5730d597f6cb411900e244d7",
+      "question": "What is the title for a seminary graduate who serves a two-three-year term in full-time appointment after being commissioned?",
+      "context": "At the 1996 General Conference the ordination order of transitional deacon was abolished. This created new orders known as \"provisional elder\" or \"provisional deacon\" for those who seek to be ordained in the respective orders. The provisional elder/deacon is a seminary graduate who serves a two-three-year term in a full-time appointment after being commissioned. During this two or three-year period, the provisional elder is granted sacramental ministry in their local appointment. For the first time in its history non-ordained pastors became a normal expectation, rather than an extraordinary provision for ministry.",
+      "references": [
+        "The provisional elder/deacon",
+        "The provisional elder/deacon",
+        "The provisional elder/deacon"
+      ],
+      "prediction": "three-year term in a full-time appointment after being commissioned. During this two or three-year period, the provisional elder",
+      "f1": 0.1111111111111111
+    },
+    {
+      "id": "56e1254ae3433e1400422c68",
+      "question": "In the article's title, what did the machine hope to end?",
+      "context": "However, his religious views remain uncertain due to other statements that he made. For example, in his article, \"A Machine to End War\", published in 1937, Tesla stated:",
+      "references": [
+        "War",
+        "War",
+        "War"
+      ],
+      "prediction": ", published in 1937",
+      "f1": 0.0
+    },
+    {
+      "id": "573098f38ab72b1400f9c5d3",
+      "question": "What did European empires rely on to supply them with resources?",
+      "context": "Europe's expansion into territorial imperialism was largely focused on economic growth by collecting resources from colonies, in combination with assuming political control by military and political means. The colonization of India in the mid-18th century offers an example of this focus: there, the \"British exploited the political weakness of the Mughal state, and, while military activity was important at various times, the economic and administrative incorporation of local elites was also of crucial significance\" for the establishment of control over the subcontinent's resources, markets, and manpower. Although a substantial number of colonies had been designed to provide economic profit and to ship resources to home ports in the seventeenth and eighteenth centuries, Fieldhouse suggests that in the nineteenth and twentieth centuries in places such as Africa and Asia, this idea is not necessarily valid:",
+      "references": [
+        "colonies",
+        "collecting resources from colonies",
+        "colonies",
+        "colonies",
+        "colonies"
+      ],
+      "prediction": "subcontinent's resources, markets, and manpower. Although a",
+      "f1": 0.2
+    },
+    {
+      "id": "572fbfa504bcaa1900d76c73",
+      "question": "Which month is the first in the year Parliament takes a two week vacation?",
+      "context": "Parliament typically sits Tuesdays, Wednesdays and Thursdays from early January to late June and from early September to mid December, with two-week recesses in April and October. Plenary meetings in the debating chamber usually take place on Wednesday afternoons from 2 pm to 6 pm and on Thursdays from 9:15 am to 6 pm. Chamber debates and committee meetings are open to the public. Entry is free, but booking in advance is recommended due to limited space. Meetings are broadcast on the Parliament's own channel Holyrood.tv and on the BBC's parliamentary channel BBC Parliament. Proceedings are also recorded in text form, in print and online, in the Official Report, which is the substantially verbatim transcript of parliamentary debates.",
+      "references": [
+        "April",
+        "April",
+        "April"
+      ],
+      "prediction": "parliamentary channel BBC Parliament. Proceedings are also",
+      "f1": 0.0
+    },
+    {
+      "id": "572a0f073f37b31900478681",
+      "question": "What is an example of an enzyme that can transform skin cells into tumors when expressed at high levels?",
+      "context": "Another important role of the immune system is to identify and eliminate tumors. This is called immune surveillance. The transformed cells of tumors express antigens that are not found on normal cells. To the immune system, these antigens appear foreign, and their presence causes immune cells to attack the transformed tumor cells. The antigens expressed by tumors have several sources; some are derived from oncogenic viruses like human papillomavirus, which causes cervical cancer, while others are the organism's own proteins that occur at low levels in normal cells but reach high levels in tumor cells. One example is an enzyme called tyrosinase that, when expressed at high levels, transforms certain skin cells (e.g. melanocytes) into tumors called melanomas. A third possible source of tumor antigens are proteins normally important for regulating cell growth and survival, that commonly mutate into cancer inducing molecules called oncogenes.",
+      "references": [
+        "tyrosinase",
+        "tyrosinase",
+        "tyrosinase"
+      ],
+      "prediction": "tumor cells. One example is an enzyme called tyrosinas",
+      "f1": 0.0
+    },
+    {
+      "id": "571144d1a58dae1900cd6d6f",
+      "question": "Aside from firebox, what is another name for the space in which combustible material is burned in the engine?",
+      "context": "The heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.",
+      "references": [
+        "combustion chamber",
+        "combustion chamber",
+        "combustion chamber"
+      ],
+      "prediction": "combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases",
+      "f1": 0.2
+    },
+    {
+      "id": "5729046aaf94a219006a9f4d",
+      "question": "When was Waruhiu Itote captured?",
+      "context": "The capture of Warũhiũ Itote (aka General China) on 15 January 1954 and the subsequent interrogation led to a better understanding of the Mau Mau command structure. Operation Anvil opened on 24 April 1954, after weeks of planning by the army with the approval of the War Council. The operation effectively placed Nairobi under military siege, and the occupants were screened and the Mau Mau supporters moved to detention camps. The Home Guard formed the core of the government's strategy as it was composed of loyalist Africans, not foreign forces like the British Army and King's African Rifles. By the end of the emergency, the Home Guard had killed 4,686 Mau Mau, amounting to 42% of the total insurgents. The capture of Dedan Kimathi on 21 October 1956 in Nyeri signified the ultimate defeat of the Mau Mau and essentially ended the military offensive. During this period, substantial governmental changes to land tenure occurred. The most important of these was the Swynnerton Plan, which was used to both reward loyalists and punish Mau Mau.",
+      "references": [
+        "15 January 1954",
+        "15 January 1954",
+        "15 January 1954"
+      ],
+      "prediction": "Warũhiũ Itote (",
+      "f1": 0.0
+    },
+    {
+      "id": "5726ef12dd62a815002e95a0",
+      "question": "Whose relics reside in the Becket Casket?",
+      "context": "One of the rarest items in the collection is the 58 cm high Gloucester Candlestick, dated to c1110, made from gilt bronze; with highly elaborate and intricate intertwining branches containing small figures and inscriptions, it is a tour de force of bronze casting. Also of importance is the Becket Casket dated c1180 to contain relics of St Thomas Becket, made from gilt copper, with enamelled scenes of the saint's martyrdom. Another highlight is the 1351 Reichenau Crozier. The Burghley Nef, a salt-cellar, French, dated 1527–28, uses a nautilus shell to form the hull of a vessel, which rests on the tail of a parcelgilt mermaid, who rests on a hexagonal gilt plinth on six claw-and-ball feet. Both masts have main and top-sails, and battlemented fighting-tops are made from gold. These items are displayed in the new Medieval & Renaissance galleries.",
+      "references": [
+        "St Thomas Becket",
+        "St Thomas Becket,",
+        "St Thomas Becket"
+      ],
+      "prediction": "58 cm high Gloucester Candlestick, dated to c111",
+      "f1": 0.0
+    }
+  ]
+}

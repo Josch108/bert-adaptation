@@ -1,0 +1,7 @@
+{
+  "winner": "partial_finetuning",
+  "criterion": "internal validation token F1; exact tie fewer parameters",
+  "test_used_for_selection": false,
+  "single_seed": true,
+  "smoke": true
+}

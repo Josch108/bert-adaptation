@@ -1,0 +1,50 @@
+{
+  "account": "Terrificfantasm",
+  "visibility": "public",
+  "models": [
+    {
+      "task": "agnews",
+      "repo_id": "Terrificfantasm/bert-base-agnews-delivered",
+      "url": "https://huggingface.co/Terrificfantasm/bert-base-agnews-delivered",
+      "local_sha256": "6d4cc1a3bcfe2e7e8584191a95a0fbc72a13c65d47139dfa8e74745b0e9c2f78",
+      "verified": true,
+      "revision": "c0ca4affe00337c719150f52419207efd75595ad",
+      "weight_hash_matches": true,
+      "tokenizer_matches": true,
+      "public_access_verified": true
+    },
+    {
+      "task": "ner",
+      "repo_id": "Terrificfantasm/bert-base-cased-conll2003-ner",
+      "url": "https://huggingface.co/Terrificfantasm/bert-base-cased-conll2003-ner",
+      "local_sha256": "0482c21c35305f9c28f7fdcf9d1a87bcd45ed4421825507d93dbc3385ff5da31",
+      "verified": true,
+      "revision": "2b344e3debaf208ecd68d2a5e6dcbbc292b07402",
+      "weight_hash_matches": true,
+      "tokenizer_matches": true,
+      "public_access_verified": true
+    },
+    {
+      "task": "pos",
+      "repo_id": "Terrificfantasm/bert-base-uncased-ud-ewt-pos",
+      "url": "https://huggingface.co/Terrificfantasm/bert-base-uncased-ud-ewt-pos",
+      "local_sha256": "ad2719aa852b6556c3d7d892f4f6646064d17bf22eb5c984dcd4ad6146846d6c",
+      "verified": true,
+      "revision": "db184e3b63980976c18c9df1da2fc5eb0792b959",
+      "weight_hash_matches": true,
+      "tokenizer_matches": true,
+      "public_access_verified": true
+    },
+    {
+      "task": "qa",
+      "repo_id": "Terrificfantasm/bert-base-uncased-squad-qa",
+      "url": "https://huggingface.co/Terrificfantasm/bert-base-uncased-squad-qa",
+      "local_sha256": "fd624a9d7698f58f6e27497684dcf9c7294cde72db9377da7f0602048363271d",
+      "verified": true,
+      "revision": "6a24d97e8418f229065762f247d25267dcbda79b",
+      "weight_hash_matches": true,
+      "tokenizer_matches": true,
+      "public_access_verified": true
+    }
+  ]
+}

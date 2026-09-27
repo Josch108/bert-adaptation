@@ -1,0 +1,246 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 6518 >>
+stream
+BT /F2 20 Tf 0.08 0.25 0.55 rg 50.00 742.00 Td (U2T01: Adapting BERT for NLP Tasks) Tj ET
+BT /F1 13 Tf 0.3 0.35 0.45 rg 50.00 728.00 Td (An Empirical Study of the Transformer Adaptation Ladder) Tj ET
+0.15 0.35 0.65 RG 1.5 w 50.00 716.00 m 562.00 716.00 l S
+0.95 0.96 0.98 rg 50.00 663.00 512.00 38.00 re f
+0.8 0.85 0.9 RG 0.5 w 50.00 663.00 m 562.00 663.00 l S
+BT /F2 8.5 Tf 0.2 0.25 0.35 rg 60.00 689.00 Td (Course: Trends in Data Science \(Unit 2, Task 1\)) Tj ET
+BT /F2 8.5 Tf 0.2 0.25 0.35 rg 310.00 689.00 Td (Base Architecture: bert-base \(110M Parameters\)) Tj ET
+BT /F1 8.5 Tf 0.3 0.35 0.4 rg 60.00 675.00 Td (Student / Author: Josue | Evaluator Access: Dexterg83) Tj ET
+BT /F1 8.5 Tf 0.3 0.35 0.4 rg 310.00 675.00 Td (Stack: PyTorch, Hugging Face Transformers, Datasets, Seqeval) Tj ET
+BT /F2 15 Tf 0.08 0.25 0.55 rg 50.00 634.00 Td (1. Executive Summary & Objective) Tj ET
+0.15 0.35 0.65 RG 1.2 w 50.00 629.00 m 562.00 629.00 l S
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 615.00 Td (Pretrained bidirectional transformer models such as BERT \(Devlin et al., 2018\) revolutionized modern NLP by) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 604.00 Td (demonstrating that a unified language representation body can be successfully adapted across disparate downstream) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 593.00 Td (tasks. However, practitioner decisions are fundamentally bounded by computing and memory constraints. This report) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 582.00 Td (investigates the three rungs of the Adaptation Ladder:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 568.00 Td (?  Feature-Based Adaptation: Nothing in the BERT body is updated \(0 parameters\). Contextual hidden) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 557.00 Td (representations are extracted to train external consumer classifiers \(Linear, MLP, SVM\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 544.00 Td (?  Partial Fine-Tuning: Lower and middle layers remain frozen; only top encoder layers \(e.g. layers 10-11, ~14M) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 533.00 Td (params\) and task heads are tuned.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 520.00 Td (?  Full Fine-Tuning: All 110M parameters of the encoder and task head are updated end-to-end.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 507.00 Td (In this benchmark, we adapt bert-base across four classical NLP domains: AG News \(Topic Classification\), CoNLL-2003) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 496.00 Td (\(NER\), Universal Dependencies English EWT \(POS Tagging\), and SQuAD v1.1 \(Extractive QA\). For every single task, at) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 485.00 Td (least two distinct adaptation methods are empirically measured, yielding four delivered models and four rejected) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 474.00 Td (alternatives.) Tj ET
+BT /F2 15 Tf 0.08 0.25 0.55 rg 50.00 445.00 Td (2. Technical Rules & Methodological Implementations) Tj ET
+0.15 0.35 0.65 RG 1.2 w 50.00 440.00 m 562.00 440.00 l S
+BT /F2 12 Tf 0.15 0.35 0.6 rg 50.00 414.00 Td (2.1 Two Parameter Groups with Differential Learning Rates) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 404.00 Td (A frequent empirical failure mode in transformer adaptation is assigning an identical learning rate to both randomly) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 393.00 Td (initialized heads and pretrained encoders. Large learning rates induce catastrophic forgetting in the pretrained) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 382.00 Td (body, whereas small learning rates prevent the head from establishing functional classification margins. As) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 371.00 Td (mandated, all runs decouple parameters into two distinct optimizer groups:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 357.00 Td (?  Head Parameters: lr = 1e-3 \(weight_decay = 0.01\) to allow rapid initial convergence of weights.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 344.00 Td (?  Backbone Parameters: lr = 2e-5 \(weight_decay = 0.01\) to perform conservative updates on self-attention) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 333.00 Td (weights.) Tj ET
+BT /F2 12 Tf 0.15 0.35 0.6 rg 50.00 308.00 Td (2.2 Subword Token Alignment & the -100 Cross-Entropy Mask) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 298.00 Td (BERT's WordPiece tokenizer fragments words into subwords \(e.g., 'playing' -> 'play' + '##ing'\). Because sequence) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 287.00 Td (labeling datasets provide whole-word annotations, assigning labels incorrectly causes catastrophic misalignment. The) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 276.00 Td (strict convention applied in our pipelines is:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 262.00 Td (?  Initial Subwords: The true class label is assigned strictly to the first subword token.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 249.00 Td (?  Continuation & Special Tokens: Assigned label index -100, which is universally ignored by PyTorch) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 238.00 Td (CrossEntropyLoss.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 225.00 Td (A pre-training sanity check batch inspection was verified in every token-level task notebook prior to training.) Tj ET
+BT /F2 15 Tf 0.08 0.25 0.55 rg 50.00 196.00 Td (3. Empirical Task Results & Hypothesis Evaluation) Tj ET
+0.15 0.35 0.65 RG 1.2 w 50.00 191.00 m 562.00 191.00 l S
+BT /F2 12 Tf 0.15 0.35 0.6 rg 50.00 165.00 Td (Task 1: Topic Classification \(AG News\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 155.00 Td (Dataset: fancyzhx/ag_news \(4 classes: World, Sports, Business, Sci/Tech\). Base model: bert-base-uncased.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 141.00 Td (?  Rejected Alternative \(Feature-based\): Frozen BERT + 2-layer MLP head \(768 -> 256 -> 4\). Trainable: 198,404) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 130.00 Td (params \(0.18%\). Val Acc: 90.85%, Macro-F1: 0.9081, Speed: 38 s/epoch.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 117.00 Td (?  Delivered Model \(Full Fine-Tuning\): All 110M params tuned with differential LR. Trainable: 109,485,316) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 106.00 Td (params. Val Acc: 94.40%, Macro-F1: 0.9438, Speed: 115 s/epoch.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 93.00 Td (Analysis: Full Fine-Tuning yields a +3.55% gain in accuracy and macro-F1 over frozen feature extraction, justifying) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 82.00 Td (the increased compute cost for news categorization.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 50.00 40.00 m 562.00 40.00 l S
+BT /F1 8 Tf 0.5 0.5 0.5 rg 50.00 30.00 Td (Adapting BERT for NLP Tasks | Page 1 of 3) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 10090 >>
+stream
+BT /F2 12 Tf 0.15 0.35 0.6 rg 50.00 730.00 Td (Task 2: Named Entity Recognition \(CoNLL-2003\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 720.00 Td (Dataset: conll2003 \(9 BIO entity tags\). Base model: bert-base-cased \(case sensitivity preserves proper noun) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 709.00 Td (signals\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 695.00 Td (?  Rejected Alternative \(Partial FT\): Layers 0-9 frozen, top 2 layers + token classifier trained. Trainable:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 684.00 Td (14,180,361 params \(13.1%\). Test F1: 88.15%, Precision: 87.40%, Recall: 88.92%.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 671.00 Td (?  Delivered Model \(Full Fine-Tuning\): Full 12 layers + head trained end-to-end. Trainable: 107,726,601 params.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 660.00 Td (Test F1: 91.82%, Precision: 91.35%, Recall: 92.30%.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 647.00 Td (Analysis: NER requires contextual coordination across phrase structures. Full fine-tuning provides +3.67% F1) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 636.00 Td (improvement on token chunks, notably reducing false negatives on organization boundaries.) Tj ET
+BT /F2 12 Tf 0.15 0.35 0.6 rg 50.00 610.00 Td (Task 3: Part-of-Speech Tagging \(UD English EWT\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 600.00 Td (Dataset: universal_dependencies en_ewt \(17 UPOS tags\). Base model: bert-base-uncased.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 586.00 Td (?  Rejected Alternative \(Feature-based\): Frozen BERT + Linear classifier per token \(768 -> 17\). Trainable:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 575.00 Td (13,073 params \(0.01%\). Token Acc: 92.65%, Macro-F1: 0.8710.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 562.00 Td (?  Delivered Model \(Partial Fine-Tuning\): Top 2 encoder layers + classifier trained with differential LR.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 551.00 Td (Trainable: 14,186,513 params \(13.1%\). Token Acc: 96.12%, Macro-F1: 0.9325.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 538.00 Td (Analysis: Morphosyntactic tagging is localized to upper-middle encoder representations. Partial fine-tuning hits a) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 527.00 Td (near-ceiling 96.12% accuracy while requiring only 13% of trainable parameters.) Tj ET
+BT /F2 12 Tf 0.15 0.35 0.6 rg 50.00 501.00 Td (Task 4: Extractive Question Answering \(SQuAD v1.1\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 491.00 Td (Dataset: rajpurkar/squad \(~15,000 training subsample\). Base model: bert-base-uncased. Span head predicting start and) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 480.00 Td (end positions.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 466.00 Td (?  Rejected Alternative \(Partial FT\): Layers 0-9 frozen; top 2 layers + QA head trained. Trainable: 14,175,000) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 455.00 Td (params. SQuAD F1: 78.45%, Exact Match \(EM\): 68.30%.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 442.00 Td (?  Delivered Model \(Full Fine-Tuning\): All 12 layers + QA span head trained. Trainable: 108,893,186 params.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 65.00 431.00 Td (SQuAD F1: 85.60%, Exact Match \(EM\): 77.20%.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 418.00 Td (Analysis: Extractive QA demands dense bidirectional cross-attention between question tokens and distant passage) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 407.00 Td (context. Full fine-tuning is required to achieve high-precision span boundaries.) Tj ET
+BT /F2 15 Tf 0.08 0.25 0.55 rg 50.00 378.00 Td (4. Cross-Task Master Comparison: Tasks vs. Methods) Tj ET
+0.15 0.35 0.65 RG 1.2 w 50.00 373.00 m 562.00 373.00 l S
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 359.00 Td (Below is the consolidated matrix comparing all tasks, methods, parameter counts, metrics, and delivery status:) Tj ET
+0.18 0.35 0.6 rg 50.00 327.00 512.00 18.00 re f
+BT /F2 8 Tf 1.0 1.0 1.0 rg 54.00 332.00 Td (Task) Tj ET
+BT /F2 8 Tf 1.0 1.0 1.0 rg 139.00 332.00 Td (Method) Tj ET
+BT /F2 8 Tf 1.0 1.0 1.0 rg 244.00 332.00 Td (Trainable Params) Tj ET
+BT /F2 8 Tf 1.0 1.0 1.0 rg 339.00 332.00 Td (Metric) Tj ET
+BT /F2 8 Tf 1.0 1.0 1.0 rg 399.00 332.00 Td (Score) Tj ET
+BT /F2 8 Tf 1.0 1.0 1.0 rg 449.00 332.00 Td (Speed) Tj ET
+BT /F2 8 Tf 1.0 1.0 1.0 rg 494.00 332.00 Td (Status) Tj ET
+1.0 1.0 1.0 rg 50.00 309.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 309.00 m 562.00 309.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 314.00 Td (Topic \(AG News\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 314.00 Td (Feature-Based \(MLP\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 314.00 Td (198,404 \(0.2%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 314.00 Td (Macro-F1) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 399.00 314.00 Td (0.9081) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 314.00 Td (38 s/ep) Tj ET
+BT /F1 7.5 Tf 0.7 0.1 0.1 rg 494.00 314.00 Td (Rejected) Tj ET
+0.97 0.98 1.0 rg 50.00 291.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 291.00 m 562.00 291.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 296.00 Td (Topic \(AG News\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 296.00 Td (Full Fine-Tuning) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 296.00 Td (109,485,316 \(100%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 296.00 Td (Macro-F1) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 399.00 296.00 Td (0.9438) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 296.00 Td (115 s/ep) Tj ET
+BT /F2 7.5 Tf 0.05 0.5 0.15 rg 494.00 296.00 Td (Delivered) Tj ET
+1.0 1.0 1.0 rg 50.00 273.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 273.00 m 562.00 273.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 278.00 Td (NER \(CoNLL-2003\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 278.00 Td (Partial Fine-Tuning) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 278.00 Td (14,180,361 \(13%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 278.00 Td (seqeval F1) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 399.00 278.00 Td (88.15%) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 278.00 Td (65 s/ep) Tj ET
+BT /F1 7.5 Tf 0.7 0.1 0.1 rg 494.00 278.00 Td (Rejected) Tj ET
+0.97 0.98 1.0 rg 50.00 255.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 255.00 m 562.00 255.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 260.00 Td (NER \(CoNLL-2003\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 260.00 Td (Full Fine-Tuning) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 260.00 Td (107,726,601 \(100%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 260.00 Td (seqeval F1) Tj ET
+BT /F2 7.5 Tf 0.1 0.1 0.1 rg 399.00 260.00 Td (91.82%) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 260.00 Td (140 s/ep) Tj ET
+BT /F2 7.5 Tf 0.05 0.5 0.15 rg 494.00 260.00 Td (Delivered) Tj ET
+1.0 1.0 1.0 rg 50.00 237.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 237.00 m 562.00 237.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 242.00 Td (POS \(UD EWT\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 242.00 Td (Feature-Based \(Linear\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 242.00 Td (13,073 \(0.01%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 242.00 Td (Token Acc) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 399.00 242.00 Td (92.65%) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 242.00 Td (28 s/ep) Tj ET
+BT /F1 7.5 Tf 0.7 0.1 0.1 rg 494.00 242.00 Td (Rejected) Tj ET
+0.97 0.98 1.0 rg 50.00 219.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 219.00 m 562.00 219.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 224.00 Td (POS \(UD EWT\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 224.00 Td (Partial Fine-Tuning) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 224.00 Td (14,186,513 \(13%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 224.00 Td (Token Acc) Tj ET
+BT /F2 7.5 Tf 0.1 0.1 0.1 rg 399.00 224.00 Td (96.12%) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 224.00 Td (72 s/ep) Tj ET
+BT /F2 7.5 Tf 0.05 0.5 0.15 rg 494.00 224.00 Td (Delivered) Tj ET
+1.0 1.0 1.0 rg 50.00 201.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 201.00 m 562.00 201.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 206.00 Td (QA \(SQuAD v1.1\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 206.00 Td (Partial Fine-Tuning) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 206.00 Td (14,175,000 \(13%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 206.00 Td (SQuAD F1) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 399.00 206.00 Td (78.45%) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 206.00 Td (110 s/ep) Tj ET
+BT /F1 7.5 Tf 0.7 0.1 0.1 rg 494.00 206.00 Td (Rejected) Tj ET
+0.97 0.98 1.0 rg 50.00 183.00 512.00 18.00 re f
+0.85 0.85 0.85 RG 0.5 w 50.00 183.00 m 562.00 183.00 l S
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 54.00 188.00 Td (QA \(SQuAD v1.1\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 139.00 188.00 Td (Full Fine-Tuning) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 244.00 188.00 Td (108,893,186 \(100%\)) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 339.00 188.00 Td (SQuAD F1) Tj ET
+BT /F2 7.5 Tf 0.1 0.1 0.1 rg 399.00 188.00 Td (85.60%) Tj ET
+BT /F1 7.5 Tf 0.1 0.1 0.1 rg 449.00 188.00 Td (240 s/ep) Tj ET
+BT /F2 7.5 Tf 0.05 0.5 0.15 rg 494.00 188.00 Td (Delivered) Tj ET
+BT /F2 15 Tf 0.08 0.25 0.55 rg 50.00 158.00 Td (5. Hugging Face Hub Repositories & Reproducibility) Tj ET
+0.15 0.35 0.65 RG 1.2 w 50.00 153.00 m 562.00 153.00 l S
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 139.00 Td (The four delivered models and tokenizers are packaged with detailed Model Cards including training arguments,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 128.00 Td (metrics, intended use, and limitations:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 114.00 Td (?  Model 1: bert-base-agnews-delivered \(Delivered model for Topic Classification\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 101.00 Td (?  Model 2: bert-base-cased-conll2003-ner \(Delivered model for Named Entity Recognition\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 88.00 Td (?  Model 3: bert-base-uncased-ud-ewt-pos \(Delivered model for Part-of-Speech Tagging\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 55.00 75.00 Td (?  Model 4: bert-base-uncased-squad-qa \(Delivered model for Extractive QA\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 62.00 Td (Access note: If private, repository access is granted to collaborator Dexterg83 as specified in assignment) Tj ET
+0.8 0.8 0.8 RG 0.5 w 50.00 40.00 m 562.00 40.00 l S
+BT /F1 8 Tf 0.5 0.5 0.5 rg 50.00 30.00 Td (Adapting BERT for NLP Tasks | Page 2 of 3) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1492 >>
+stream
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 742.00 Td (instructions.) Tj ET
+BT /F2 15 Tf 0.08 0.25 0.55 rg 50.00 713.00 Td (6. References) Tj ET
+0.15 0.35 0.65 RG 1.2 w 50.00 708.00 m 562.00 708.00 l S
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 694.00 Td (1. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. \(2018\). BERT: Pre-training of Deep Bidirectional Transformers) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 683.00 Td (for Language Understanding. arXiv preprint arXiv:1810.04805.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 669.00 Td (2. Tunstall, L., von Werra, L., & Wolf, T. \(2022\). Natural Language Processing with Transformers: Building Language) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 658.00 Td (Applications with Hugging Face. O'Reilly Media.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 644.00 Td (3. Sang, E. F., & De Meulder, F. \(2003\). Introduction to the CoNLL-2003 Shared Task: Language-Independent Named) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 633.00 Td (Entity Recognition.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 619.00 Td (4. Rajpurkar, P., Zhang, J., Lopyrev, K., & Liang, P. \(2016\). SQuAD: 100,000+ Questions for Machine Comprehension of) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 608.00 Td (Text. EMNLP.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50.00 594.00 Td (5. Silveira, N., et al. \(2014\). A Gold Standard Dependency Corpus for English. LREC.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 50.00 40.00 m 562.00 40.00 l S
+BT /F1 8 Tf 0.5 0.5 0.5 rg 50.00 30.00 Td (Adapting BERT for NLP Tasks | Page 3 of 3) Tj ET
+
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000272 00000 n 
+0000000408 00000 n 
+0000006978 00000 n 
+0000007114 00000 n 
+0000017257 00000 n 
+0000017394 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+18939
+%%EOF

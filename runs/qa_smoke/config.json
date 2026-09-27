@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "epochs": 1,
+  "train_size": 15000,
+  "eval_size": 2000,
+  "max_length": 384,
+  "stride": 128,
+  "micro_batch": 4,
+  "accumulation": 4,
+  "top_layers": 2,
+  "head_lr": 0.001,
+  "backbone_lr": 2e-05,
+  "model_id": "google-bert/bert-base-uncased",
+  "dataset_id": "rajpurkar/squad",
+  "model_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "dataset_revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+  "smoke": true,
+  "attention_backend": "sdpa",
+  "gradient_checkpointing": false,
+  "n_best": 20,
+  "max_answer_length": 30
+}

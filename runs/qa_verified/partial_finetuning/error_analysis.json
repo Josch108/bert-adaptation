@@ -1,0 +1,255 @@
+{
+  "zero_f1": 450,
+  "partial_f1": 594,
+  "examples": [
+    {
+      "id": "57281a952ca10214002d9dee",
+      "question": "In what episode did Dudley Simpson play a music conductor?",
+      "context": "The most frequent musical contributor during the first 15 years was Dudley Simpson, who is also well known for his theme and incidental music for Blake's 7, and for his haunting theme music and score for the original 1970s version of The Tomorrow People. Simpson's first Doctor Who score was Planet of Giants (1964) and he went on to write music for many adventures of the 1960s and 1970s, including most of the stories of the Jon Pertwee/Tom Baker periods, ending with The Horns of Nimon (1979). He also made a cameo appearance in The Talons of Weng-Chiang (as a Music hall conductor).",
+      "references": [
+        "The Talons of Weng-Chiang",
+        "The Talons of Weng-Chiang",
+        "The Talons of Weng-Chiang"
+      ],
+      "prediction": "Blake's 7",
+      "f1": 0.0
+    },
+    {
+      "id": "5727490bdd62a815002e9a83",
+      "question": "What is an example of an article of uniform clothing typically present in Australian private schools?",
+      "context": "Private schools in Australia may be favoured for many reasons: prestige and the social status of the 'old school tie'; better quality physical infrastructure and more facilities (e.g. playing fields, swimming pools, etc.), higher-paid teachers; and/or the belief that private schools offer a higher quality of education. Some schools offer the removal of the purported distractions of co-education; the presence of boarding facilities; or stricter discipline based on their power of expulsion, a tool not readily available to government schools. Student uniforms for Australian private schools are generally stricter and more formal than in government schools - for example, a compulsory blazer. Private schools in Australia are always more expensive than their public counterparts.[citation needed]",
+      "references": [
+        "blazer",
+        "blazer",
+        "blazer"
+      ],
+      "prediction": "a compulsory blazer",
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "5733f8dc4776f419006615f8",
+      "question": "How did Vaudreuil react when Johnson was seen as larger threat?",
+      "context": "Johnson's expedition was better organized than Shirley's, which was noticed by New France's governor, the Marquis de Vaudreuil. He had primarily been concerned about the extended supply line to the forts on the Ohio, and had sent Baron Dieskau to lead the defenses at Frontenac against Shirley's expected attack. When Johnson was seen as the larger threat, Vaudreuil sent Dieskau to Fort St. Frédéric to meet that threat. Dieskau planned to attack the British encampment at Fort Edward at the upper end of navigation on the Hudson River, but Johnson had strongly fortified it, and Dieskau's Indian support was reluctant to attack. The two forces finally met in the bloody Battle of Lake George between Fort Edward and Fort William Henry. The battle ended inconclusively, with both sides withdrawing from the field. Johnson's advance stopped at Fort William Henry, and the French withdrew to Ticonderoga Point, where they began the construction of Fort Carillon (later renamed Fort Ticonderoga after British capture in 1759).",
+      "references": [
+        "sent Dieskau to Fort St. Frédéric to meet that threat",
+        "sent Dieskau to Fort St. Frédéric",
+        "sent Dieskau to Fort St. Frédéric",
+        "sent Dieskau to Fort St. Frédéric",
+        "sent Dieskau to Fort St. Frédéric"
+      ],
+      "prediction": "Johnson",
+      "f1": 0.0
+    },
+    {
+      "id": "56d6f2960d65d21400198288",
+      "question": "How many yards did Newton throw for in 2015?",
+      "context": "The Panthers offense, which led the NFL in scoring (500 points), was loaded with talent, boasting six Pro Bowl selections. Pro Bowl quarterback Cam Newton had one of his best seasons, throwing for 3,837 yards and rushing for 636, while recording a career-high and league-leading 45 total touchdowns (35 passing, 10 rushing), a career-low 10 interceptions, and a career-best quarterback rating of 99.4. Newton's leading receivers were tight end Greg Olsen, who caught a career-high 77 passes for 1,104 yards and seven touchdowns, and wide receiver Ted Ginn, Jr., who caught 44 passes for 739 yards and 10 touchdowns; Ginn also rushed for 60 yards and returned 27 punts for 277 yards. Other key receivers included veteran Jerricho Cotchery (39 receptions for 485 yards), rookie Devin Funchess (31 receptions for 473 yards and five touchdowns), and second-year receiver Corey Brown (31 receptions for 447 yards). The Panthers backfield featured Pro Bowl running back Jonathan Stewart, who led the team with 989 rushing yards and six touchdowns in 13 games, along with Pro Bowl fullback Mike Tolbert, who rushed for 256 yards and caught 18 passes for another 154 yards. Carolina's offensive line also featured two Pro Bowl selections: center Ryan Kalil and guard Trai Turner.",
+      "references": [
+        "3,837",
+        "3,837",
+        "3,837"
+      ],
+      "prediction": "636",
+      "f1": 0.0
+    },
+    {
+      "id": "56e19724cd28a01900c679f6",
+      "question": "A function problem is an example of what?",
+      "context": "A function problem is a computational problem where a single output (of a total function) is expected for every input, but the output is more complex than that of a decision problem, that is, it isn't just yes or no. Notable examples include the traveling salesman problem and the integer factorization problem.",
+      "references": [
+        "a computational problem",
+        "a computational problem",
+        "a computational problem"
+      ],
+      "prediction": "a single output",
+      "f1": 0.0
+    },
+    {
+      "id": "56e101f4e3433e1400422a8e",
+      "question": "Who did Tesla try to get money from?",
+      "context": "Tesla later approached Morgan to ask for more funds to build a more powerful transmitter. When asked where all the money had gone, Tesla responded by saying that he was affected by the Panic of 1901, which he (Morgan) had caused. Morgan was shocked by the reminder of his part in the stock market crash and by Tesla's breach of contract by asking for more funds. Tesla wrote another plea to Morgan, but it was also fruitless. Morgan still owed Tesla money on the original agreement, and Tesla had been facing foreclosure even before construction of the tower began.",
+      "references": [
+        "Morgan",
+        "Morgan",
+        "Morgan"
+      ],
+      "prediction": "gone",
+      "f1": 0.0
+    },
+    {
+      "id": "572881704b864d1900164a53",
+      "question": "What techniques did Chinese medicine include?",
+      "context": "The Chinese medical tradition of the Yuan had \"Four Great Schools\" that the Yuan inherited from the Jin dynasty. All four schools were based on the same intellectual foundation, but advocated different theoretical approaches toward medicine. Under the Mongols, the practice of Chinese medicine spread to other parts of the empire. Chinese physicians were brought along military campaigns by the Mongols as they expanded towards the west. Chinese medical techniques such as acupuncture, moxibustion, pulse diagnosis, and various herbal drugs and elixirs were transmitted westward to the Middle East and the rest of the empire. Several medical advances were made in the Yuan period. The physician Wei Yilin (1277–1347) invented a suspension method for reducing dislocated joints, which he performed using anesthetics. The Mongol physician Hu Sihui described the importance of a healthy diet in a 1330 medical treatise.",
+      "references": [
+        "acupuncture, moxibustion, pulse diagnosis, and various herbal drugs and elixirs",
+        "acupuncture, moxibustion, pulse diagnosis, and various herbal drugs and elixirs",
+        "acupuncture, moxibustion, pulse diagnosis, and various herbal drugs"
+      ],
+      "prediction": "suspension method for reducing dislocated joints, which he performed using anesthetics",
+      "f1": 0.0
+    },
+    {
+      "id": "57097b50200fba1400368051",
+      "question": "What was happening to subscriber numbers in other areas of europe?",
+      "context": "BSkyB's direct-to-home satellite service became available in 10 million homes in 2010, Europe's first pay-TV platform in to achieve that milestone. Confirming it had reached its target, the broadcaster said its reach into 36% of households in the UK represented an audience of more than 25m people. The target was first announced in August 2004, since then an additional 2.4m customers had subscribed to BSkyB's direct-to-home service. Media commentators had debated whether the figure could be reached as the growth in subscriber numbers elsewhere in Europe flattened.",
+      "references": [
+        "flattened",
+        "flattened",
+        "flattened"
+      ],
+      "prediction": "growth in subscriber numbers elsewhere in Europe flattened",
+      "f1": 0.2222222222222222
+    },
+    {
+      "id": "56bebd713aeaaa14008c9331",
+      "question": "How long will the event at Santa Clara Convention Center last?",
+      "context": "In addition, there are $2 million worth of other ancillary events, including a week-long event at the Santa Clara Convention Center, a beer, wine and food festival at Bellomy Field at Santa Clara University, and a pep rally. A professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event. Additional funding will be provided by the city council, which has announced plans to set aside seed funding for the event.",
+      "references": [
+        "a week",
+        "a week",
+        "week"
+      ],
+      "prediction": "week-long event at the Santa Clara Convention Center, a beer, wine and food festival",
+      "f1": 0.0
+    },
+    {
+      "id": "5726e37ef1498d1400e8eeda",
+      "question": "Why is the collection dominated by fashionable clothes made for special occasions?",
+      "context": "The costume collection is the most comprehensive in Britain, containing over 14,000 outfits plus accessories, mainly dating from 1600 to the present. Costume sketches, design notebooks, and other works on paper are typically held by the Word and Image department. Because everyday clothing from previous eras has not generally survived, the collection is dominated by fashionable clothes made for special occasions. One of the first significant gifts of costume came in 1913 when the V&A received the Talbot Hughes collection containing 1,442 costumes and items as a gift from Harrods following its display at the nearby department store.",
+      "references": [
+        "Because everyday clothing from previous eras has not generally survived",
+        "Because everyday clothing from previous eras has not generally survived",
+        "everyday clothing from previous eras has not generally survived",
+        "everyday clothing from previous eras has not generally survived"
+      ],
+      "prediction": "Because everyday clothing from previous eras",
+      "f1": 0.75
+    },
+    {
+      "id": "572f6c85947a6a140053c941",
+      "question": "Where are a bulk of factories concentrated along the Rhine?",
+      "context": "Until the early 1980s, industry was a major source of water pollution. Although many plants and factories can be found along the Rhine up into Switzerland, it is along the Lower Rhine that the bulk of them are concentrated, as the river passes the major cities of Cologne, Düsseldorf and Duisburg. Duisburg is the home of Europe's largest inland port and functions as a hub to the sea ports of Rotterdam, Antwerp and Amsterdam. The Ruhr, which joins the Rhine in Duisburg, is nowadays a clean river, thanks to a combination of stricter environmental controls, a transition from heavy industry to light industry and cleanup measures, such as the reforestation of Slag and brownfields. The Ruhr currently provides the region with drinking water. It contributes 70 m3/s (2,500 cu ft/s) to the Rhine. Other rivers in the Ruhr Area, above all, the Emscher, still carry a considerable degree of pollution.",
+      "references": [
+        "Switzerland",
+        "Lower Rhine",
+        "Lower Rhine"
+      ],
+      "prediction": "Switzerland, it is along the Lower Rhine",
+      "f1": 0.5
+    },
+    {
+      "id": "572812e74b864d19001643cf",
+      "question": "What was Thoreau's punishment for not paying his taxes?",
+      "context": "However, this definition is disputed by Thoreau's political philosophy pitching the conscience vs. the collective. The individual is the final judge of right and wrong. More than this, since only individuals act, only individuals can act unjustly. When the government knocks on the door, it is an individual in the form of a postman or tax collector whose hand hits the wood. Before Thoreau’s imprisonment, when a confused taxman had wondered aloud about how to handle his refusal to pay, Thoreau had advised, “Resign.” If a man chose to be an agent of injustice, then Thoreau insisted on confronting him with the fact that he was making a choice. But if government is “the voice of the people,” as it is often called, shouldn’t that voice be heeded? Thoreau admits that government may express the will of the majority but it may also express nothing more than the will of elite politicians. Even a good form of government is “liable to be abused and perverted before the people can act through it.” Moreover, even if a government did express the voice of the people, this fact would not compel the obedience of individuals who disagree with what is being said. The majority may be powerful but it is not necessarily right. What, then, is the proper relationship between the individual and the government?",
+      "references": [
+        "imprisonment",
+        "imprisonment",
+        "imprisonment",
+        "imprisonment",
+        "imprisonment"
+      ],
+      "prediction": "Resign.” If a man chose to be an agent of injustice",
+      "f1": 0.0
+    },
+    {
+      "id": "57265360dd62a815002e819c",
+      "question": "To force Japan to be more involved in the crisis, what did Saudi and Kuwaiti government do?",
+      "context": "Although lacking historical connections to the Middle East, Japan was the country most dependent on Arab oil. 71% of its imported oil came from the Middle East in 1970. On November 7, 1973, the Saudi and Kuwaiti governments declared Japan a \"nonfriendly\" country to encourage it to change its noninvolvement policy. It received a 5% production cut in December, causing a panic. On November 22, Japan issued a statement \"asserting that Israel should withdraw from all of the 1967 territories, advocating Palestinian self-determination, and threatening to reconsider its policy toward Israel if Israel refused to accept these preconditions\". By December 25, Japan was considered an Arab-friendly state.",
+      "references": [
+        "5% production cut",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country"
+      ],
+      "prediction": "change its noninvolvement policy",
+      "f1": 0.0
+    },
+    {
+      "id": "5733cf61d058e614000b62eb",
+      "question": "How many people were in French North American Colonies?",
+      "context": "The French and Indian War (1754–1763) was the North American theater of the worldwide Seven Years' War. The war was fought between the colonies of British America and New France, with both sides supported by military units from their parent countries of Great Britain and France, as well as Native American allies. At the start of the war, the French North American colonies had a population of roughly 60,000 European settlers, compared with 2 million in the British North American colonies. The outnumbered French particularly depended on the Indians. Long in conflict, the metropole nations declared war on each other in 1756, escalating the war from a regional affair into an intercontinental conflict.",
+      "references": [
+        "roughly 60,000 European settlers",
+        "60,000",
+        "60,000",
+        "60,000",
+        "60,000 European settlers"
+      ],
+      "prediction": "60,000 European settlers, compared with 2 million",
+      "f1": 0.6
+    },
+    {
+      "id": "572ffc99947a6a140053cef8",
+      "question": "What was Sadat seeking by releasing Islamists from prison?",
+      "context": "Egyptian President Anwar Sadat – whose policies included opening Egypt to Western investment (infitah); transferring Egypt's allegiance from the Soviet Union to the United States; and making peace with Israel – released Islamists from prison and welcomed home exiles in tacit exchange for political support in his struggle against leftists. His \"encouraging of the emergence of the Islamist movement\" was said to have been \"imitated by many other Muslim leaders in the years that followed.\"  This \"gentlemen's agreement\" between Sadat and Islamists broke down in 1975 but not before Islamists came to completely dominate university student unions. Sadat was later assassinated and a formidable insurgency was formed in Egypt in the 1990s. The French government has also been reported to have promoted Islamist preachers \"in the hope of channeling Muslim energies into zones of piety and charity.\"",
+      "references": [
+        "political support",
+        "making peace with Israel",
+        "political support"
+      ],
+      "prediction": "Israel",
+      "f1": 0.4
+    },
+    {
+      "id": "56e1b754cd28a01900c67abc",
+      "question": "Time and space are both examples of what type of resource?",
+      "context": "Analogous definitions can be made for space requirements. Although time and space are the most well-known complexity resources, any complexity measure can be viewed as a computational resource. Complexity measures are very generally defined by the Blum complexity axioms. Other complexity measures used in complexity theory include communication complexity, circuit complexity, and decision tree complexity.",
+      "references": [
+        "complexity resources",
+        "complexity resources",
+        "complexity"
+      ],
+      "prediction": "computational",
+      "f1": 0.0
+    },
+    {
+      "id": "57275273dd62a815002e9b19",
+      "question": "What library contains the Selmur Productions catalogue?",
+      "context": "Also part of the library is the aforementioned Selznick library, the Cinerama Productions/Palomar theatrical library and the Selmur Productions catalog that the network acquired some years back, and the in-house productions it continues to produce (such as America's Funniest Home Videos, General Hospital, and ABC News productions), although Disney–ABC Domestic Television (formerly known as Buena Vista Television) handles domestic television distribution, while Disney–ABC International Television (formerly known as Buena Vista International Television) handles international television distribution.",
+      "references": [
+        "Selznick library",
+        "Selznick",
+        "Selznick library"
+      ],
+      "prediction": "Cinerama Productions/Palomar theatrical library",
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "572fc41f947a6a140053cc82",
+      "question": "What does the Presiding Officer try to achieve a balance of between speakers?",
+      "context": "The Presiding Officer (or Deputy Presiding Officer) decides who speaks in chamber debates and the amount of time for which they are allowed to speak. Normally, the Presiding Officer tries to achieve a balance between different viewpoints and political parties when selecting members to speak. Typically, ministers or party leaders open debates, with opening speakers given between 5 and 20 minutes, and succeeding speakers allocated less time. The Presiding Officer can reduce speaking time if a large number of members wish to participate in the debate. Debate is more informal than in some parliamentary systems. Members may call each other directly by name, rather than by constituency or cabinet position, and hand clapping is allowed. Speeches to the chamber are normally delivered in English, but members may use Scots, Gaelic, or any other language with the agreement of the Presiding Officer. The Scottish Parliament has conducted debates in the Gaelic language.",
+      "references": [
+        "different viewpoints",
+        "different viewpoints and political parties",
+        "a balance between different viewpoints and political parties"
+      ],
+      "prediction": "political parties",
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "56e17644e3433e1400422f41",
+      "question": "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+      "context": "Closely related fields in theoretical computer science are analysis of algorithms and computability theory. A key distinction between analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the amount of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, it tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kind of problems can, in principle, be solved algorithmically.",
+      "references": [
+        "analysis of algorithms",
+        "analysis of algorithms",
+        "analysis of algorithms"
+      ],
+      "prediction": "theoretical computer science are analysis of algorithms and computability theory",
+      "f1": 0.46153846153846156
+    },
+    {
+      "id": "56e7542f00c9c71400d76fbe",
+      "question": "What would a teacher do for someone who is timid?",
+      "context": "Teaching using pedagogy also involve assessing the educational levels of the students on particular skills. Understanding the pedagogy of the students in a classroom involves using differentiated instruction as well as supervision to meet the needs of all students in the classroom. Pedagogy can be thought of in two manners. First, teaching itself can be taught in many different ways, hence, using a pedagogy of teaching styles. Second, the pedagogy of the learners comes into play when a teacher assesses the pedagogic diversity of his/her students and differentiates for the individual students accordingly. For example, an experienced teacher and parent described the place of a teacher in learning as follows: \"The real bulk of learning takes place in self-study and problem solving with a lot of feedback around that loop. The function of the teacher is to pressure the lazy, inspire the bored, deflate the cocky, encourage the timid, detect and correct individual flaws, and broaden the viewpoint of all. This function looks like that of a coach using the whole gamut of psychology to get each new class of rookies off the bench and into the game.\"",
+      "references": [
+        "encourage",
+        "encourage",
+        "encourage"
+      ],
+      "prediction": "differentiated instruction",
+      "f1": 0.0
+    }
+  ]
+}

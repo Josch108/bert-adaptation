@@ -52,7 +52,7 @@ Tipos incorrectos, límites incorrectos y entidades omitidas son categorías exc
 Evidencia: data_manifest.json, alignment_check.csv, historiales, selection.json, predicciones por palabra, métricas por tipo y ejemplos de error.
 BERT-base-cased, precisión bf16 cuando la GPU lo admite, semilla 42 y dos grupos de LR (cabeza 1e-3, encoder 2e-5).
 Fuentes: https://huggingface.co/datasets/lhoestq/conll2003 ; https://github.com/chakki-works/seqeval ; https://arxiv.org/abs/1810.04805
-POS y QA siguen pendientes. El reporte PDF anterior aún no fue actualizado. Modelo exportado localmente, no publicado.
+Las cuatro tareas y el reporte PDF final están completos. Modelos publicados: ver publication_manifest.json.
 
 ## Interpretación de esta ejecución
 

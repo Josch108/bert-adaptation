@@ -1,0 +1,6 @@
+{
+  "method": "full_finetuning",
+  "epoch": 3,
+  "batch": 3700,
+  "batches": 3790
+}

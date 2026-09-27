@@ -1,48 +1,41 @@
 # U2T01: Adapting BERT for NLP Tasks
 
-Proyecto enfocado en la adaptación empírica de `bert-base` a través de los tres peldaños de la escalera de adaptación (*Feature-based*, *Partial fine-tuning*, *Full fine-tuning*) en cuatro tareas clásicas de NLP.
+**Final delivery completed:** English PDF report, eight measured alternatives across four tasks, four executed notebooks, and four public Hugging Face model/tokenizer repositories.
 
-## Estado de la revisión de AG News
+- [Final English report](report/report.pdf) / [editable Markdown](report/REPORT.md)
+- [Submission guide](DELIVERY.md)
+- [Detailed experiment index](report/EXPERIMENTS_STATUS.md)
+- [Published models and verification](publication_manifest.json)
 
-**AG News completado:** accuracy de prueba 76.90% (congelado) y 92.50% (ajuste completo). [Resultados verificados y análisis](report/AGNEWS_RESULTS.md).
+| Task | Public Hugging Face repository | Selected method |
+|---|---|---|
+| AG News | [Terrificfantasm/bert-base-agnews-delivered](https://huggingface.co/Terrificfantasm/bert-base-agnews-delivered) | full_finetuning |
+| NER | [Terrificfantasm/bert-base-cased-conll2003-ner](https://huggingface.co/Terrificfantasm/bert-base-cased-conll2003-ner) | full_finetuning |
+| POS | [Terrificfantasm/bert-base-uncased-ud-ewt-pos](https://huggingface.co/Terrificfantasm/bert-base-uncased-ud-ewt-pos) | partial_finetuning |
+| QA | [Terrificfantasm/bert-base-uncased-squad-qa](https://huggingface.co/Terrificfantasm/bert-base-uncased-squad-qa) | full_finetuning |
 
-AG News tiene un flujo reproducible con separación train/validation/test, selección por validación,
-exportación del ganador y evidencia por ejecución. Consulta [AGNEWS_GUIDE.md](AGNEWS_GUIDE.md).
-La implementación está en `src/agnews_experiment.py`; las dependencias específicas, en `requirements-agnews.txt`.
+## Verified outcomes
 
-**Las cifras de `report/REPORT.md` y `report/report.pdf` son del borrador anterior y no están verificadas.**
-Para AG News, usa `runs/agnews_verified/RESULTS.md` solo cuando su `status.json` indique `complete`.
-POS y QA siguen pendientes de corrección y ejecución. Las salidas smoke son pruebas técnicas, no resultados finales.
+| Task | Alternatives: test result | Delivered |
+|---|---|---|
+| AG News | Frozen 76.90% accuracy; full 92.50% | Full |
+| NER | Partial 89.11; full 91.50 strict entity F1 /100 | Full |
+| POS | Frozen 93.23% word accuracy; partial 95.73% | Partial |
+| QA | Partial 61.75; full 83.28 answer F1 /100 | Full |
 
-## Estado de NER
+Selection used validation data; the test set was not used for hyperparameter tuning. One seed per configuration means small gaps remain uncertain. Different tasks use different metrics and must not be ranked by their raw scores.
 
-**NER completado:** F1 estricto en prueba 0.8911 (parcial) y 0.9150 (completo). [Resultados verificados](report/NER_RESULTS.md) y [guía](NER_GUIDE.md). Modelo elegido por validación y exportado localmente; una semilla por configuración.
+## Project layout
 
-## Estructura del Proyecto
+- `src/`: training, independent artifact verification, PDF building and publication utilities.
+- `notebooks/`: four executed notebooks. POS and QA inspect the saved training evidence rather than retraining when opened.
+- `runs/*_verified/`: configurations, source snapshots, versions, metrics, predictions and local models.
+- `report/`: final English report, learning curves and supporting task analyses. Historical drafts are under `report/archive/`.
+- `tests/`: targeted checks for training/evaluation behavior.
+- `models_manifest.json`: selected local and hosted model locations.
 
-```
-bert-adaptation/
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   ├── 01_topic_classification_agnews.ipynb
-│   ├── 02_ner_conll2003.ipynb
-│   ├── 03_pos_tagging_ud_ewt.ipynb
-│   └── 04_extractive_qa_squad.ipynb
-├── report/
-│   └── (borradores, gráficas y reporte PDF final)
-└── src/
-    ├── agnews_experiment.py
-    └── upload_models_to_hf.py
-```
+## Reproduction
 
-## Flujo de Trabajo en Google Colab
+Read [AGNEWS_GUIDE.md](AGNEWS_GUIDE.md), [NER_GUIDE.md](NER_GUIDE.md), [POS_GUIDE.md](POS_GUIDE.md) and [QA_GUIDE.md](QA_GUIDE.md). Explanatory guides and notebooks may be in Spanish; the final submission report is in English. Use the exact per-run package locks and pinned revisions, and a new output directory. See DELIVERY.md for rebuilding the PDF and loading the hosted models.
 
-1. **Hardware:** En Google Colab, seleccionar entorno de ejecución con aceleración por GPU (según disponibilidad en Runtime -> Change runtime type).
-2. **Reproducibilidad:** Cada notebook incluye semillas fijas (`seed=42`) y seguimiento de métricas (loss por época, tiempos en segundos y métricas de evaluación).
-3. **Reglas de la Tarea:**
-   - Comparación obligatoria de al menos 2 métodos por tarea (modelo entregado vs alternativa rechazada).
-   - Cobertura de los tres métodos de adaptación a lo largo del proyecto.
-   - Tasas de aprendizaje diferenciadas (`head ~ 1e-3`, `backbone ~ 2e-5`).
-   - Alineación de subtokens con máscara `-100` y *sanity check* visual para tareas de secuencias.
-   - Exportación de los 4 modelos ganadores a Hugging Face Hub con Model Cards completas.
+No account credentials are included in the project or submission package.

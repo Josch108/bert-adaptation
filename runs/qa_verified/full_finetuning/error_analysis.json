@@ -1,0 +1,256 @@
+{
+  "zero_f1": 186,
+  "partial_f1": 342,
+  "examples": [
+    {
+      "id": "5727490bdd62a815002e9a83",
+      "question": "What is an example of an article of uniform clothing typically present in Australian private schools?",
+      "context": "Private schools in Australia may be favoured for many reasons: prestige and the social status of the 'old school tie'; better quality physical infrastructure and more facilities (e.g. playing fields, swimming pools, etc.), higher-paid teachers; and/or the belief that private schools offer a higher quality of education. Some schools offer the removal of the purported distractions of co-education; the presence of boarding facilities; or stricter discipline based on their power of expulsion, a tool not readily available to government schools. Student uniforms for Australian private schools are generally stricter and more formal than in government schools - for example, a compulsory blazer. Private schools in Australia are always more expensive than their public counterparts.[citation needed]",
+      "references": [
+        "blazer",
+        "blazer",
+        "blazer"
+      ],
+      "prediction": "a compulsory blazer",
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "5733f8dc4776f419006615f8",
+      "question": "How did Vaudreuil react when Johnson was seen as larger threat?",
+      "context": "Johnson's expedition was better organized than Shirley's, which was noticed by New France's governor, the Marquis de Vaudreuil. He had primarily been concerned about the extended supply line to the forts on the Ohio, and had sent Baron Dieskau to lead the defenses at Frontenac against Shirley's expected attack. When Johnson was seen as the larger threat, Vaudreuil sent Dieskau to Fort St. Frédéric to meet that threat. Dieskau planned to attack the British encampment at Fort Edward at the upper end of navigation on the Hudson River, but Johnson had strongly fortified it, and Dieskau's Indian support was reluctant to attack. The two forces finally met in the bloody Battle of Lake George between Fort Edward and Fort William Henry. The battle ended inconclusively, with both sides withdrawing from the field. Johnson's advance stopped at Fort William Henry, and the French withdrew to Ticonderoga Point, where they began the construction of Fort Carillon (later renamed Fort Ticonderoga after British capture in 1759).",
+      "references": [
+        "sent Dieskau to Fort St. Frédéric to meet that threat",
+        "sent Dieskau to Fort St. Frédéric",
+        "sent Dieskau to Fort St. Frédéric",
+        "sent Dieskau to Fort St. Frédéric",
+        "sent Dieskau to Fort St. Frédéric"
+      ],
+      "prediction": "larger threat, Vaudreuil sent Dieskau to Fort St. Frédéric to meet that threat",
+      "f1": 0.8695652173913043
+    },
+    {
+      "id": "56d6f2960d65d21400198288",
+      "question": "How many yards did Newton throw for in 2015?",
+      "context": "The Panthers offense, which led the NFL in scoring (500 points), was loaded with talent, boasting six Pro Bowl selections. Pro Bowl quarterback Cam Newton had one of his best seasons, throwing for 3,837 yards and rushing for 636, while recording a career-high and league-leading 45 total touchdowns (35 passing, 10 rushing), a career-low 10 interceptions, and a career-best quarterback rating of 99.4. Newton's leading receivers were tight end Greg Olsen, who caught a career-high 77 passes for 1,104 yards and seven touchdowns, and wide receiver Ted Ginn, Jr., who caught 44 passes for 739 yards and 10 touchdowns; Ginn also rushed for 60 yards and returned 27 punts for 277 yards. Other key receivers included veteran Jerricho Cotchery (39 receptions for 485 yards), rookie Devin Funchess (31 receptions for 473 yards and five touchdowns), and second-year receiver Corey Brown (31 receptions for 447 yards). The Panthers backfield featured Pro Bowl running back Jonathan Stewart, who led the team with 989 rushing yards and six touchdowns in 13 games, along with Pro Bowl fullback Mike Tolbert, who rushed for 256 yards and caught 18 passes for another 154 yards. Carolina's offensive line also featured two Pro Bowl selections: center Ryan Kalil and guard Trai Turner.",
+      "references": [
+        "3,837",
+        "3,837",
+        "3,837"
+      ],
+      "prediction": "3,837 yards and rushing for 636",
+      "f1": 0.2857142857142857
+    },
+    {
+      "id": "5726e37ef1498d1400e8eeda",
+      "question": "Why is the collection dominated by fashionable clothes made for special occasions?",
+      "context": "The costume collection is the most comprehensive in Britain, containing over 14,000 outfits plus accessories, mainly dating from 1600 to the present. Costume sketches, design notebooks, and other works on paper are typically held by the Word and Image department. Because everyday clothing from previous eras has not generally survived, the collection is dominated by fashionable clothes made for special occasions. One of the first significant gifts of costume came in 1913 when the V&A received the Talbot Hughes collection containing 1,442 costumes and items as a gift from Harrods following its display at the nearby department store.",
+      "references": [
+        "Because everyday clothing from previous eras has not generally survived",
+        "Because everyday clothing from previous eras has not generally survived",
+        "everyday clothing from previous eras has not generally survived",
+        "everyday clothing from previous eras has not generally survived"
+      ],
+      "prediction": "Because everyday clothing from previous eras",
+      "f1": 0.75
+    },
+    {
+      "id": "572812e74b864d19001643cf",
+      "question": "What was Thoreau's punishment for not paying his taxes?",
+      "context": "However, this definition is disputed by Thoreau's political philosophy pitching the conscience vs. the collective. The individual is the final judge of right and wrong. More than this, since only individuals act, only individuals can act unjustly. When the government knocks on the door, it is an individual in the form of a postman or tax collector whose hand hits the wood. Before Thoreau’s imprisonment, when a confused taxman had wondered aloud about how to handle his refusal to pay, Thoreau had advised, “Resign.” If a man chose to be an agent of injustice, then Thoreau insisted on confronting him with the fact that he was making a choice. But if government is “the voice of the people,” as it is often called, shouldn’t that voice be heeded? Thoreau admits that government may express the will of the majority but it may also express nothing more than the will of elite politicians. Even a good form of government is “liable to be abused and perverted before the people can act through it.” Moreover, even if a government did express the voice of the people, this fact would not compel the obedience of individuals who disagree with what is being said. The majority may be powerful but it is not necessarily right. What, then, is the proper relationship between the individual and the government?",
+      "references": [
+        "imprisonment",
+        "imprisonment",
+        "imprisonment",
+        "imprisonment",
+        "imprisonment"
+      ],
+      "prediction": "Resign",
+      "f1": 0.0
+    },
+    {
+      "id": "57265360dd62a815002e819c",
+      "question": "To force Japan to be more involved in the crisis, what did Saudi and Kuwaiti government do?",
+      "context": "Although lacking historical connections to the Middle East, Japan was the country most dependent on Arab oil. 71% of its imported oil came from the Middle East in 1970. On November 7, 1973, the Saudi and Kuwaiti governments declared Japan a \"nonfriendly\" country to encourage it to change its noninvolvement policy. It received a 5% production cut in December, causing a panic. On November 22, Japan issued a statement \"asserting that Israel should withdraw from all of the 1967 territories, advocating Palestinian self-determination, and threatening to reconsider its policy toward Israel if Israel refused to accept these preconditions\". By December 25, Japan was considered an Arab-friendly state.",
+      "references": [
+        "5% production cut",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country"
+      ],
+      "prediction": "encourage it to change its noninvolvement policy",
+      "f1": 0.0
+    },
+    {
+      "id": "5733cf61d058e614000b62eb",
+      "question": "How many people were in French North American Colonies?",
+      "context": "The French and Indian War (1754–1763) was the North American theater of the worldwide Seven Years' War. The war was fought between the colonies of British America and New France, with both sides supported by military units from their parent countries of Great Britain and France, as well as Native American allies. At the start of the war, the French North American colonies had a population of roughly 60,000 European settlers, compared with 2 million in the British North American colonies. The outnumbered French particularly depended on the Indians. Long in conflict, the metropole nations declared war on each other in 1756, escalating the war from a regional affair into an intercontinental conflict.",
+      "references": [
+        "roughly 60,000 European settlers",
+        "60,000",
+        "60,000",
+        "60,000",
+        "60,000 European settlers"
+      ],
+      "prediction": "60,000 European settlers, compared with 2 million",
+      "f1": 0.6
+    },
+    {
+      "id": "56e17644e3433e1400422f41",
+      "question": "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+      "context": "Closely related fields in theoretical computer science are analysis of algorithms and computability theory. A key distinction between analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the amount of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, it tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kind of problems can, in principle, be solved algorithmically.",
+      "references": [
+        "analysis of algorithms",
+        "analysis of algorithms",
+        "analysis of algorithms"
+      ],
+      "prediction": "analysis of algorithms and computability theory",
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "56e7542f00c9c71400d76fbe",
+      "question": "What would a teacher do for someone who is timid?",
+      "context": "Teaching using pedagogy also involve assessing the educational levels of the students on particular skills. Understanding the pedagogy of the students in a classroom involves using differentiated instruction as well as supervision to meet the needs of all students in the classroom. Pedagogy can be thought of in two manners. First, teaching itself can be taught in many different ways, hence, using a pedagogy of teaching styles. Second, the pedagogy of the learners comes into play when a teacher assesses the pedagogic diversity of his/her students and differentiates for the individual students accordingly. For example, an experienced teacher and parent described the place of a teacher in learning as follows: \"The real bulk of learning takes place in self-study and problem solving with a lot of feedback around that loop. The function of the teacher is to pressure the lazy, inspire the bored, deflate the cocky, encourage the timid, detect and correct individual flaws, and broaden the viewpoint of all. This function looks like that of a coach using the whole gamut of psychology to get each new class of rookies off the bench and into the game.\"",
+      "references": [
+        "encourage",
+        "encourage",
+        "encourage"
+      ],
+      "prediction": "encourage the timid, detect and correct individual flaws",
+      "f1": 0.25
+    },
+    {
+      "id": "5729729a1d0469140077948f",
+      "question": "What is a chlorenchyma cell?",
+      "context": "Not all cells in a multicellular plant contain chloroplasts. All green parts of a plant contain chloroplasts—the chloroplasts, or more specifically, the chlorophyll in them are what make the photosynthetic parts of a plant green. The plant cells which contain chloroplasts are usually parenchyma cells, though chloroplasts can also be found in collenchyma tissue. A plant cell which contains chloroplasts is known as a chlorenchyma cell. A typical chlorenchyma cell of a land plant contains about 10 to 100 chloroplasts.",
+      "references": [
+        "A plant cell which contains chloroplasts",
+        "cell which contains chloroplasts",
+        "plant cell which contains chloroplasts"
+      ],
+      "prediction": "A typical chlorenchyma cell of a land plant contains about 10 to 100 chloroplasts",
+      "f1": 0.47058823529411764
+    },
+    {
+      "id": "573007fab2c2fd140056876e",
+      "question": "Where are the upper Rhine and upper Danube crossed?",
+      "context": "From the death of Augustus in AD 14 until after AD 70, Rome accepted as her Germanic frontier the water-boundary of the Rhine and upper Danube. Beyond these rivers she held only the fertile plain of Frankfurt, opposite the Roman border fortress of Moguntiacum (Mainz), the southernmost slopes of the Black Forest and a few scattered bridge-heads. The northern section of this frontier, where the Rhine is deep and broad, remained the Roman boundary until the empire fell. The southern part was different. The upper Rhine and upper Danube are easily crossed. The frontier which they form is inconveniently long, enclosing an acute-angled wedge of foreign territory between the modern Baden and Württemberg. The Germanic populations of these lands seem in Roman times to have been scanty, and Roman subjects from the modern Alsace-Lorraine had drifted across the river eastwards.",
+      "references": [
+        "southern",
+        "between the modern Baden and Württemberg"
+      ],
+      "prediction": "southern part was different. The upper Rhine and upper Danube are easily crossed",
+      "f1": 0.15384615384615385
+    },
+    {
+      "id": "57274f07708984140094dbed",
+      "question": "What year marked the lowest ratings for the drama Lost?",
+      "context": "The network began running into some trouble in the ratings by 2010. That year, the sixth and final season of Lost became the drama's lowest-rated season since its debut in 2004. Ratings for the once-instant hit Ugly Betty collapsed dramatically after it was moved to Fridays at the start of its fourth season in the fall of 2009; an attempt to boost ratings by moving the dramedy to Wednesdays failed, with its ultimate cancellation by the network eliciting negative reaction from the public, and particularly the show's fanbase. With the network's two former hit shows now out of the picture, the network's remaining top veteran shows Desperate Housewives and Grey's Anatomy, and another hit drama Brothers & Sisters, all ended the 2009–10 season recorded their lowest ratings ever.",
+      "references": [
+        "2010",
+        "2010",
+        "2010"
+      ],
+      "prediction": "2004",
+      "f1": 0.0
+    },
+    {
+      "id": "56bebb293aeaaa14008c9305",
+      "question": "In what city's Marriott did the Panthers stay?",
+      "context": "The Panthers used the San Jose State practice facility and stayed at the San Jose Marriott. The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.",
+      "references": [
+        "San Jose",
+        "San Jose",
+        "San Jose"
+      ],
+      "prediction": "San Jose Marriott. The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott",
+      "f1": 0.25
+    },
+    {
+      "id": "56f884cba6d7ea1400e17708",
+      "question": "What theologian differed in views about the soul from Luther?",
+      "context": "The Lutheran theologian Franz Pieper observed that Luther's teaching about the state of the Christian's soul after death differed from the later Lutheran theologians such as Johann Gerhard. Lessing (1755) had earlier reached the same conclusion in his analysis of Lutheran orthodoxy on this issue.",
+      "references": [
+        "Johann Gerhard",
+        "Johann Gerhard",
+        "Gerhard"
+      ],
+      "prediction": "Franz Pieper observed that Luther's teaching about the state of the Christian's soul after death differed from the later Lutheran theologians such as Johann Gerhard",
+      "f1": 0.16666666666666666
+    },
+    {
+      "id": "56e0e518231d4119001ac444",
+      "question": "What was Tesla's AC system used for in Pittsburgh?",
+      "context": "During that year, Tesla worked in Pittsburgh, helping to create an alternating current system to power the city's streetcars. He found the time there frustrating because of conflicts between him and the other Westinghouse engineers over how best to implement AC power. Between them, they settled on a 60-cycle AC current system Tesla proposed (to match the working frequency of Tesla's motor), although they soon found that, since Tesla's induction motor could only run at a constant speed, it would not work for street cars. They ended up using a DC traction motor instead.",
+      "references": [
+        "to power the city's streetcars.",
+        "the city's streetcars",
+        "street cars"
+      ],
+      "prediction": "power the city's streetcars",
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "57267b65dd62a815002e86a9",
+      "question": "Strang is an Anglo-Saxon word which means what in modern English?",
+      "context": "The dialect of Newcastle is known as Geordie, and contains a large amount of vocabulary and distinctive word pronunciations not used in other parts of the United Kingdom. The Geordie dialect has much of its origins in the language spoken by the Anglo-Saxon populations who migrated to and conquered much of England after the end of Roman Imperial rule. This language was the forerunner of Modern English; but while the dialects of other English regions have been heavily altered by the influences of other foreign languages—particularly Latin and Norman French—the Geordie dialect retains many elements of the old language. An example of this is the pronunciation of certain words: \"dead\", \"cow\", \"house\" and \"strong\" are pronounced \"deed\", \"coo\", \"hoos\" and \"strang\"—which is how they were pronounced in the Anglo-Saxon language. Other Geordie words with Anglo-Saxon origins include: \"larn\" (from the Anglo-Saxon \"laeran\", meaning \"teach\"), \"burn\" (\"stream\") and \"gan\" (\"go\").",
+      "references": [
+        "strong",
+        "strang",
+        "strong"
+      ],
+      "prediction": "deed",
+      "f1": 0.0
+    },
+    {
+      "id": "572faf74b2c2fd140056834a",
+      "question": "Where was Parliament temporarily relocated to in May of 2000?",
+      "context": "Whilst the permanent building at Holyrood was being constructed, the Parliament's temporary home was the General Assembly Hall of the Church of Scotland on the Royal Mile in Edinburgh. Official photographs and television interviews were held in the courtyard adjoining the Assembly Hall, which is part of the School of Divinity of the University of Edinburgh. This building was vacated twice to allow for the meeting of the Church's General Assembly. In May 2000, the Parliament was temporarily relocated to the former Strathclyde Regional Council debating chamber in Glasgow, and to the University of Aberdeen in May 2002.",
+      "references": [
+        "former Strathclyde Regional Council debating chamber in Glasgow",
+        "former Strathclyde Regional Council debating chamber",
+        "the former Strathclyde Regional Council debating chamber"
+      ],
+      "prediction": "Strathclyde Regional Council debating chamber in Glasgow, and to the University of Aberdeen",
+      "f1": 0.7
+    },
+    {
+      "id": "56beba103aeaaa14008c92e5",
+      "question": "Who slipped on the Levi's Stadium turf in week 6 of the 2015 NFL season?",
+      "context": "Concerns were raised over whether Levi's Stadium's field was of a high enough quality to host a Super Bowl; during the inaugural season, the field had to be re-sodded multiple times due to various issues, and during a week 6 game earlier in the 2015 season, a portion of the turf collapsed under Baltimore Ravens kicker Justin Tucker, causing him to slip and miss a field goal, although the field has not had any major issues since. As is customary for Super Bowl games played at natural grass stadiums, the NFL re-sodded the field with a new playing surface; a hybrid Bermuda 419 turf. NFL and Atlanta Braves field director Ed Mangan stated that the field was in \"great shape\" for gameday. However, the turf showed problem throughout the game, with a number of players needing to change their cleats during the game and player slipping during plays all throughout the game.",
+      "references": [
+        "Justin Tucker",
+        "Justin Tucker",
+        "Tucker"
+      ],
+      "prediction": "Baltimore Ravens kicker Justin Tucker",
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "5733d249d058e614000b6333",
+      "question": "Where was France concentraing efforts?",
+      "context": "After the disastrous 1757 British campaigns (resulting in a failed expedition against Louisbourg and the Siege of Fort William Henry, which was followed by Indian torture and massacres of British victims), the British government fell. William Pitt came to power and significantly increased British military resources in the colonies at a time when France was unwilling to risk large convoys to aid the limited forces it had in New France. France concentrated its forces against Prussia and its allies in the European theatre of the war. Between 1758 and 1760, the British military launched a campaign to capture the Colony of Canada. They succeeded in capturing territory in surrounding colonies and ultimately Quebec. Though the British were later defeated at Sainte Foy in Quebec, the French ceded Canada in accordance with the 1763 treaty.",
+      "references": [
+        "against Prussia and its allies in the European theatre of the war.",
+        "Prussia",
+        "against Prussia and its allies",
+        "European theatre",
+        "Prussia"
+      ],
+      "prediction": "New France",
+      "f1": 0.0
+    },
+    {
+      "id": "5727d4922ca10214002d977e",
+      "question": "What are the top 4-5% graduating students honored with?",
+      "context": "Harvard's academic programs operate on a semester calendar beginning in early September and ending in mid-May. Undergraduates typically take four half-courses per term and must maintain a four-course rate average to be considered full-time. In many concentrations, students can elect to pursue a basic program or an honors-eligible program requiring a senior thesis and/or advanced course work. Students graduating in the top 4–5% of the class are awarded degrees summa cum laude, students in the next 15% of the class are awarded magna cum laude, and the next 30% of the class are awarded cum laude. Harvard has chapters of academic honor societies such as Phi Beta Kappa and various committees and departments also award several hundred named prizes annually. Harvard, along with other universities, has been accused of grade inflation, although there is evidence that the quality of the student body and its motivation have also increased. Harvard College reduced the number of students who receive Latin honors from 90% in 2004 to 60% in 2005. Moreover, the honors of \"John Harvard Scholar\" and \"Harvard College Scholar\" will now be given only to the top 5 percent and the next 5 percent of each class.",
+      "references": [
+        "summa cum laude",
+        "summa cum laude",
+        "summa cum laude"
+      ],
+      "prediction": "degrees summa cum laude",
+      "f1": 0.8571428571428571
+    }
+  ]
+}

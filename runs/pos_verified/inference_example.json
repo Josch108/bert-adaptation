@@ -1,0 +1,24 @@
+{
+  "words": [
+    "John",
+    "Smith",
+    "works",
+    "for",
+    "Microsoft",
+    "in",
+    "New",
+    "York",
+    "."
+  ],
+  "tags": [
+    "PROPN",
+    "PROPN",
+    "VERB",
+    "ADP",
+    "PROPN",
+    "ADP",
+    "ADJ",
+    "PROPN",
+    "PUNCT"
+  ]
+}

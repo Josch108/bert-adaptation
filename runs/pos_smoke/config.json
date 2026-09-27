@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "epochs": 1,
+  "micro_batch": 8,
+  "accumulation": 2,
+  "top_layers": 2,
+  "head_lr": 0.001,
+  "backbone_lr": 2e-05,
+  "weight_decay": 0.01,
+  "model_id": "google-bert/bert-base-uncased",
+  "dataset_id": "UniversalDependencies/UD_English-EWT",
+  "model_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "dataset_revision": "r2.15",
+  "smoke": true
+}
